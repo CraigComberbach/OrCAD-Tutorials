@@ -61,3 +61,11 @@ GPUCache/
 # ****************************** Ultralibrarian ***************************** #
 # Ultralibrarian generated documentation
 ImportGuide.html
+
+# ***************************** Microsoft Office **************************** #
+# Excel
+~$*.xls*
+# Word
+~$*.doc*
+# Powerpoint
+~$*.ppt*
