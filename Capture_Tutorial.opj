@@ -6,7 +6,7 @@
     (Folder "Library"
       (File "c:\cadence\spb_22.1\tools\capture\library\capture tutorial2.olb"
         (Type "Schematic Library")))
-    ("Allegro Netlist Directory" "allegro")
+    ("Allegro Netlist Directory" "OBJ_File_Edit_NetListPath")
     (DOCKED "TRUE")
     (DOCKING_POSITION "59420")
     (NoModify)
@@ -106,7 +106,7 @@
     ("View Allegro Netlist Files" "FALSE")
     ("Allegro Netlist Create DCF File" "FALSE")
     ("Update Allegro Board" "FALSE")
-    ("Allegro Netlist Output Board File" ".\allegro\pcb_tutorial.brd")
+    ("Allegro Netlist Output Board File" ".\pcb_tutorial.brd")
     ("Allegro Netlist Remove Etch" "FALSE")
     ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
     ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
@@ -117,28 +117,23 @@
     ("Allegro Netlist Ignore Fixed Property" "FALSE")
     ("Allegro Netlist User Defined Property" "FALSE"))
   (Folder "Layout"
-    (File ".\allegro\capture_tutorial.brd"
+    (File ".\pcb_tutorial.brd"
       (Type "Board File")
-      (OutputBoard ".\allegro\capture_tutorial.brd")
-      (NetListPath ".\allegro")
-      (ActiveBoard "0"))
-    (File ".\allegro\pcb_tutorial.brd"
-      (Type "Board File")
-      (OutputBoard ".\allegro\pcb_tutorial.brd")
-      (NetListPath ".\allegro")
+      (OutputBoard ".\pcb_tutorial.brd")
+      (NetListPath ".\OBJ_File_Edit_NetListPath")
       (ActiveBoard "1")))
   (Folder "Outputs"
-    (File ".\capture_tutorial_drc.drc"
+    (File ".\obj_file_edit_drc\capture_tutorial_drc.drc"
       (Type "Report"))
-    (File ".\capture_tutorial.bom"
+    (File ".\obj_file_edit_bom\capture_tutorial.bom"
       (Type "Report"))
-    (File ".\allegro\pstxnet.dat"
+    (File ".\obj_file_edit_pstxnet\allegro\pstxnet.dat"
       (Type "Report")
       (DisplayName "pstxnet.dat"))
-    (File ".\allegro\pstxprt.dat"
+    (File ".\obj_file_edit_pstxprt\allegro\pstxprt.dat"
       (Type "Report")
       (DisplayName "pstxprt.dat"))
-    (File ".\allegro\pstchip.dat"
+    (File ".\obj_file_edit_pstchip\allegro\pstchip.dat"
       (Type "Report")
       (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
@@ -151,19 +146,19 @@
     (Folder "Include Files"
       (Sort User)))
   (Folder "Logs"
-    (File ".\allegro\netlist.log"
+    (File ".\OBJ_File_Edit_Netlist\netlist.log"
       (Type "Log File")
       (LogFile
          "c:\users\aidanf\documents\pcb walkthrough 22.1\pcb files\allegro\netlist.log"))
-    (File ".\allegro\netrev.lst"
+    (File ".\OBJ_File_Edit_NetRev\netrev.lst"
       (Type "Log File")
       (LogFile
          "c:\users\aidanf\documents\pcb walkthrough 22.1\pcb files\allegro\netrev.lst"))
-    (File ".\allegro\eco.txt"
+    (File ".\OBJ_File_Edit_ECO\eco.txt"
       (Type "Log File")
       (LogFile
          "c:\users\aidanf\documents\pcb walkthrough 22.1\pcb files\allegro\eco.txt"))
-    (File ".\allegro\genfeed.log"
+    (File ".\OBJ_File_Edit_genfeed\genfeed.log"
       (Type "Log File")
       (LogFile
          "c:\users\aidanf\documents\pcb walkthrough 22.1\pcb files\allegro\genfeed.log")))
@@ -230,24 +225,12 @@
       (Path "Design Resources" "Library")
       (Path "Layout")
       (Path "Outputs")
-      (Path "Logs")
-      (Select "Design Resources"))
+      (Path "Logs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 868"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 698 24 886")
-        (Scroll "322 0")
-        (Zoom "134")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\AIDANF\DOCUMENTS\PCB WALKTHROUGH 22.1\PCB FILES\CAPTURE_TUTORIAL.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "PAGE1")))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 1057"))
+      (Tab 0)))
   (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_22.1\tools\capture\library")
   (ISPCBBASICLICENSE "false"))
