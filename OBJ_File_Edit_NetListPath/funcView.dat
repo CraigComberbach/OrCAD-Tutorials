@@ -1,0 +1,20 @@
+A!FUNC_LOGICAL_PATH!COMP_DEVICE_TYPE!REFDES!FUNC_PRIM_FILE!COMP_PARENT_PPT!COMP_PARENT_PPT_PART!COMP_PARENT_PART_TYPE!FUNC_SCH_SIZE!FUNC_HAS_FIXED_SIZE!FUNC_DES!FUNC_GROUP!FUNC_ROOM!FUNC_CDS_FSP_UID!FUNC_NO_SWAP_PIN!FUNC_HARD_LOCATION!FUNC_NO_SWAP_GATE_EXT!FUNC_CDS_FSP_MAPPED_CELL!FUNC_CDS_FSP_FPGA_SYMBOL!FUNC_CDS_FSP_TERM_TYPE!FUNC_CDS_FSP_TERM_NAME!FUNC_ROOM!FUNC_GROUP!FUNC_CDS_FSP_TERM_INDEX!FUNC_CDS_FSP_INSTANCE_ID!FUNC_NO_SWAP_GATE!FUNC_NO_XNET_CONNECTION!FUNC_CDS_FSP_IS_FPGA!
+J!C:/USERS/CRAIGCOMBERBACH/ONEDRIVE - SMARTREND MANUFACTURING GROUP/DESKTOP/ORCAD-TUTORIALS/pcb_tutorial.brd!Fri Feb  9 14:27:23 2024!-117.0000!-235.0000!416.4000!196.8000!0.0001!millimeters!CAPTURE_TUTORIAL!19.600000 mil!3!OUT OF DATE!
+S!@capture_tutorial.schematic1(sch_1):ins951@capture_tutorial.\lt1965ems8e-1p5_1.normal\(chips)!LT1965EMS8E-1P5_1_LT1965EMS8E-1.5_MSOP_8_ADI_LT1965EMS8E-1P5!U1!.\chipsView.dat!!!!!!F2!!!!!!!!!!!!!!!!!!
+S!@capture_tutorial.schematic1(sch_1):ins668@discrete.\cap np.normal\(chips)!CAP NP_0402-CAP_0.1UF!C4!.\chipsView.dat!!!!!!F13!!!!!!!!!!!!!!!!!!
+S!@capture_tutorial.schematic1(sch_1):ins684@discrete.\cap np.normal\(chips)!CAP NP_0402-CAP_0.1UF!C5!.\chipsView.dat!!!!!!F12!!!!!!!!!!!!!!!!!!
+S!@capture_tutorial.schematic1(sch_1):ins700@discrete.\cap np.normal\(chips)!CAP NP_0402-CAP_0.1UF!C6!.\chipsView.dat!!!!!!F11!!!!!!!!!!!!!!!!!!
+S!@capture_tutorial.schematic1(sch_1):ins716@discrete.\cap np.normal\(chips)!CAP NP_0402-CAP_0.1UF!C7!.\chipsView.dat!!!!!!F10!!!!!!!!!!!!!!!!!!
+S!@capture_tutorial.schematic1(sch_1):ins732@discrete.\cap np.normal\(chips)!CAP NP_0402-CAP_0.1UF!C8!.\chipsView.dat!!!!!!F9!!!!!!!!!!!!!!!!!!
+S!@capture_tutorial.schematic1(sch_1):ins620@discrete.\cap np.normal\(chips)!CAP NP_1210_100UF!C2!.\chipsView.dat!!!!!!F14!!!!!!!!!!!!!!!!!!
+S!@capture_tutorial.schematic1(sch_1):ins636@discrete.\cap np.normal\(chips)!CAP NP_0402-CAP_10UF!C1!.\chipsView.dat!!!!!!F17!!!!!!!!!!!!!!!!!!
+S!@capture_tutorial.schematic1(sch_1):ins652@discrete.\cap np.normal\(chips)!CAP NP_0402-CAP_10UF!C3!.\chipsView.dat!!!!!!F16!!!!!!!!!!!!!!!!!!
+S!@capture_tutorial.schematic1(sch_1):ins748@discrete.\cap np.normal\(chips)!CAP NP_0402-CAP_10UF!C9!.\chipsView.dat!!!!!!F15!!!!!!!!!!!!!!!!!!
+S!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!IC1!.\chipsView.dat!!!!!!F8!!!!!!!!!!!!!!!!!!
+S!@capture_tutorial.schematic1(sch_1):ins489@\capture tutorial2\.\xtend-digi-modem.normal\(chips)!XTEND-DIGI-MODEM_XTEND-DIGI-MODEM_XTEND-DIGI-MODEM!JP1!.\chipsView.dat!!!!!!F7!!!!!!!!!!!!!!!!!!
+S!@capture_tutorial.schematic1(sch_1):ins554@\capture tutorial2\.\m06_lock.normal\(chips)!M06_LOCK_1X06_LOCK_PIC 32 PROG!JP2!.\chipsView.dat!!!!!!F6!!!!!!!!!!!!!!!!!!
+S!@capture_tutorial.schematic1(sch_1):ins814@discrete.\led.normal\(chips)!LED_LED_LNJ_LED!MAIN_PWR!.\chipsView.dat!!!!!!F5!!!!!!!!!!!!!!!!!!
+S!@capture_tutorial.schematic1(sch_1):ins773@discrete.\resistor.normal\(chips)!RESISTOR_0402-RES_150!R1!.\chipsView.dat!!!!!!F4!!!!!!!!!!!!!!!!!!
+S!@capture_tutorial.schematic1(sch_1):ins789@discrete.\resistor.normal\(chips)!RESISTOR_0402-RES_56K!R2!.\chipsView.dat!!!!!!F3!!!!!!!!!!!!!!!!!!
+S!@capture_tutorial.schematic1(sch_1):ins369@\capture tutorial2\.\usb-microb.normal\(chips)!USB-MICROB_USB-MICROB_USB-B!X1!.\chipsView.dat!!!!!!F1!!!!!!!!!!!!!!!!!!
+S!@capture_tutorial.schematic1(sch_1):ins591@\capture tutorial2\.\crystal.normal\(chips)!CRYSTAL_CRYSTAL-SMD_8MHZ!Y1!.\chipsView.dat!!!!!!F0!!!!!!!!!!!!!!!!!!

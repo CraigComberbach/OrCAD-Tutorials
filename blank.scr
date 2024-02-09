@@ -1,0 +1,11 @@
+# Allegro script
+#	file: c:/users/craigcomberbach/onedrive - smartrend manufacturing group/desktop/orcad-tutorials/blank.scr
+#	start time: Fri Feb  9 13:57:15 2024
+#	Version: 22.1-2022 P001 (4063652) Windows SPB 64-bit Edition
+version 22.1
+
+setwindow pcb
+trapsize 9328
+placementedit
+
+#	stop time: Fri Feb  9 13:57:16 2024
