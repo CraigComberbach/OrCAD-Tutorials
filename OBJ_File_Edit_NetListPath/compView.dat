@@ -1,20 +1,20 @@
 A!REFDES!COMP_REUSE_ID!COMP_SIGNAL_MODEL!COMP_NO_XNET_CONNECTION!COMP_PARENT_PPT!COMP_SYMBOL_EDITED!COMP_PARENT_PPT_PART!COMP_EMBEDDED_PLACEMENT!
-J!c:/users/craigcomberbach/onedrive - smartrend manufacturing group/desktop/orcad-tutorials/pcb_tutorial.brd!Mon Feb 12 10:21:05 2024!-117.00!-235.00!416.40!196.80!0.01!millimeters!CAPTURE_TUTORIAL!19.600000 mil!3!UP TO DATE!
-S!U1!!!!!!!!
+J!C:/USERS/CRAIGCOMBERBACH/ONEDRIVE - SMARTREND MANUFACTURING GROUP/DESKTOP/ORCAD-TUTORIALS/pcb_tutorial.brd!Mon Feb 12 11:22:03 2024!-117.00!-235.00!416.40!196.80!0.01!millimeters!CAPTURE_TUTORIAL!19.600000 mil!3!OUT OF DATE!
+S!C1!!!!!!!!
+S!C3!!!!!!!!
+S!C9!!!!!!!!
+S!C2!!!!!!!!
 S!C4!!!!!!!!
 S!C5!!!!!!!!
 S!C6!!!!!!!!
 S!C7!!!!!!!!
 S!C8!!!!!!!!
-S!C2!!!!!!!!
-S!C1!!!!!!!!
-S!C3!!!!!!!!
-S!C9!!!!!!!!
 S!IC1!!!!!!!!
 S!JP1!!!!!!!!
-S!JP2!!!!!!!!
 S!MAIN_PWR!!!!!!!!
 S!R1!!!!!!!!
 S!R2!!!!!!!!
+S!U1!!!!!!!!
 S!X1!!!!!!!!
 S!Y1!!!!!!!!
+S!JP2!!!!!!!!

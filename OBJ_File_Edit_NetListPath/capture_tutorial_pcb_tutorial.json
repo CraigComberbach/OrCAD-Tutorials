@@ -3,22 +3,7 @@
 	"Ref Des" : [],
 	"Pin Swap" : [],
 	"Component Property" : [],
-	"Net Property" : [
-		{
-			"Name" : "D-",
-			"C_PATH" : "@capture_tutorial.schematic1(sch_1):\\d-\\",
-			"PropName" : "DIFFERENTIAL_PAIR",
-			"Logical" : "MYPREFIXD",
-			"Physical" : null
-		},
-		{
-			"Name" : "D+",
-			"C_PATH" : "@capture_tutorial.schematic1(sch_1):\\d+\\",
-			"PropName" : "DIFFERENTIAL_PAIR",
-			"Logical" : "MYPREFIXD",
-			"Physical" : null
-		}
-	],
+	"Net Property" : [],
 	"Pin Property" : [],
 	"Component" : [],
 	"Net" : [],

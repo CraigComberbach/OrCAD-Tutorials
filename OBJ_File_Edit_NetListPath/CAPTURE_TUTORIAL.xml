@@ -1,0 +1,2005 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/Cadence/SPB_22.1/share/pcb/consmgr/VDD/report/treeview.xsl"?>
+<ConstraintDifferenceReport Path="file:///C:/Cadence/SPB_22.1/share/pcb/consmgr/VDD/report/rc" Type="Constraint Difference Report">
+
+  <RptSummary Col1="Schematic" Col2="Layout">
+    <Entry Name="Report time">Mon Feb 12 11:22:05 2024
+</Entry>
+    <Entry Name="Software version">22.1 (P001)</Entry>
+    <Entry Name="Schematic">C:\USERS\CRAIGCOMBERBACH\ONEDRIVE - SMARTREND MANUFACTURING GROUP\DESKTOP\ORCAD-TUTORIALS\CAPTURE_DESIGN_DCF\CAPTURE_TUTORIAL_344702125\CAPTURE_TUTORIAL.DCF</Entry>
+    <Entry Name="Layout">c:\users\craigcomberbach\onedrive - smartrend manufacturing group\desktop\orcad-tutorials\OBJ_File_Edit_NetListPath\cmdbview.dat</Entry>
+    <Entry Name="Baseline File">c:\users\craigcomberbach\onedrive - smartrend manufacturing group\desktop\orcad-tutorials\OBJ_File_Edit_NetListPath\cmbcview.dat</Entry>
+    <Entry Name="Destination design updated">Yes</Entry>
+    <Entry Name="Update Mode">Diff3</Entry>
+    <Entry Name="Constraint Information">CrossSection, Electrical, Physical, Spacing, Same Net Spacing, NetClasses, Properties</Entry>
+    <Entry Name="Objects with conflicts">0</Entry>
+  </RptSummary>
+
+  <Tree>
+    <Item Filter="0x13f" Name="Summary" Ref="main-summary">
+      <Item Filter="0x3c" Name="Constraint Sets [6]" Ref="19">
+        <Item Filter="0x4" Name="ElectricalCSets [1]" Ref="18">
+          <Item Filter="0x4" Name="DP" Ref="e"/>
+        </Item>
+        <Item Filter="0xc" Name="PhysicalCSets [3]" Ref="1b">
+          <Item Filter="0xc" Name="DEFAULT" Ref="a"/>
+          <Item Filter="0xc" Name="DP" Ref="f"/>
+          <Item Filter="0xc" Name="POWER_GND" Ref="13"/>
+        </Item>
+        <Item Filter="0x30" Name="SameNetSpacingCSets [1]" Ref="1d">
+          <Item Filter="0x30" Name="DEFAULT" Ref="c"/>
+        </Item>
+        <Item Filter="0x10" Name="SpacingCSets [1]" Ref="1c">
+          <Item Filter="0x10" Name="DEFAULT" Ref="b"/>
+        </Item>
+      </Item>
+      <Item Filter="0x139" Name="Designs [1]" Ref="15">
+        <Item Filter="0x139" Name="CAPTURE_TUTORIAL" Ref="1"/>
+      </Item>
+      <Item Filter="0xe" Name="DiffPairs [1]" Ref="1a">
+        <Item Filter="0xe" Name="DPD" Ref="d"/>
+      </Item>
+      <Item Filter="0x100" Name="Layers [7]" Ref="17">
+        <Item Filter="0x100" Name="Surface (0)" Ref="4"/>
+        <Item Filter="0x100" Name="TOP" Ref="5"/>
+        <Item Filter="0x100" Name="Dielectric (0)" Ref="2"/>
+        <Item Filter="0x100" Name="POWERPLANE_1" Ref="6"/>
+        <Item Filter="0x100" Name="Dielectric (1)" Ref="3"/>
+        <Item Filter="0x100" Name="BOTTOM" Ref="7"/>
+        <Item Filter="0x100" Name="Surface (6)" Ref="8"/>
+      </Item>
+      <Item Filter="0x8" Name="Nets [2]" Ref="16">
+        <Item Filter="0x8" Name="3.3V" Ref="12"/>
+        <Item Filter="0x8" Name="GND" Ref="14"/>
+      </Item>
+      <Item Filter="0x2" Name="Stackups [1]" Ref="1e">
+        <Item Filter="0x2" Name="PRIMARY" Ref="9"/>
+      </Item>
+    </Item>
+  </Tree>
+
+  <Summaries>
+    <MainSummary ID="main-summary">
+      <ChangedObject Filter="0x3c" Name="Constraint Sets" ObjNumber="ElectricalCSet: 1, PhysicalCSet: 3, SpacingCSet: 1, SameNetSpacingCSet: 1" Ref="19"/>
+      <ChangedObject Filter="0x139" Name="Designs" ObjNumber="1" Ref="15"/>
+      <ChangedObject Filter="0xe" Name="DiffPairs" ObjNumber="1" Ref="1a"/>
+      <ChangedObject Filter="0x100" Name="Layers" ObjNumber="7" Ref="17"/>
+      <ChangedObject Filter="0x8" Name="Nets" ObjNumber="2" Ref="16"/>
+      <ChangedObject Filter="0x2" Name="Stackups" ObjNumber="1" Ref="1e"/>
+    </MainSummary>
+    <GroupSummary ID="15" Name="Designs">
+      <ChangedObject Attributes="11" Child="0" Filter="0x139" Membership="0" Name="CAPTURE_TUTORIAL" Notes="0" Other="0" Ref="1" Reference="3"/>
+    </GroupSummary>
+    <ObjectSummary ID="1" Kind="Design" Name="CAPTURE_TUTORIAL">
+      <Associations Filter="0x38" Type="Reference">
+        <Reference Add="1" Filter="0x8" Kind="PhysicalCSet" Name="DEFAULT" Ref="a"/>
+        <Reference Add="1" Filter="0x10" Kind="SpacingCSet" Name="DEFAULT" Ref="b"/>
+        <Reference Add="1" Filter="0x20" Kind="SameNetSpacingCSet" Name="DEFAULT" Ref="c"/>
+      </Associations>
+      <Attributes Filter="0x111" Type="Attributes">
+        <Attribute Filter="0x100" Name="CDS_DI_CONTROL_MASK" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="DRAWING_EXTENTS" Status="Add" Taken="Src" Type="Array">
+          <Value>
+            <Dst></Dst>
+            <Src>533.40</Src>
+            <Base></Base>
+          </Value>
+          <Value>
+            <Dst></Dst>
+            <Src>431.80</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="DRAWING_LOWER_LEFT" Status="Add" Taken="Src" Type="Array">
+          <Value>
+            <Dst></Dst>
+            <Src>-117.00</Src>
+            <Base></Base>
+          </Value>
+          <Value>
+            <Dst></Dst>
+            <Src>-235.00</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x1" Name="Design units" Status="" Taken="Src" Type="Scalar">
+          <Value Type="noChange">
+            <Dst>in</Dst>
+            <Src>mm</Src>
+            <Base>in</Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="MECH_PIN_TO_CONDUCTOR_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.20</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="MECH_PIN_TO_MECH_PIN_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.20</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="MINIMUM_LINE_TO_LINE_ANGLE" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>90</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="MINIMUM_LINE_TO_PAD_ANGLE" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>90</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="MINIMUM_LINE_TO_SHAPE_ANGLE" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>90</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="MINIMUM_SHAPE_EDGE_ANGLE" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>90</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x1" Name="Number of decimal places" Status="" Taken="Src" Type="Scalar">
+          <Value Type="noChange">
+            <Dst>2</Dst>
+            <Src>2</Src>
+            <Base>2</Base>
+          </Value>
+        </Attribute>
+      </Attributes>
+    </ObjectSummary>
+    <GroupSummary ID="16" Name="Nets">
+      <ChangedObject Attributes="0" Child="0" Filter="0x8" Membership="0" Name="3.3V" Notes="0" Other="0" Ref="12" Reference="1"/>
+      <ChangedObject Attributes="0" Child="0" Filter="0x8" Membership="0" Name="GND" Notes="0" Other="0" Ref="14" Reference="1"/>
+    </GroupSummary>
+    <ObjectSummary ID="12" Kind="Net" Name="3.3V">
+      <Associations Filter="0x8" Type="Reference">
+        <Reference Add="1" Filter="0x8" Kind="PhysicalCSet" Name="POWER_GND" Ref="13"/>
+      </Associations>
+    </ObjectSummary>
+    <ObjectSummary ID="14" Kind="Net" Name="GND">
+      <Associations Filter="0x8" Type="Reference">
+        <Reference Add="1" Filter="0x8" Kind="PhysicalCSet" Name="POWER_GND" Ref="13"/>
+      </Associations>
+    </ObjectSummary>
+    <GroupSummary ID="17" Name="Layers">
+      <ChangedObject Attributes="8" Child="0" Filter="0x100" Membership="0" Name="Surface (0)" Notes="0" Other="0" Ref="4" Reference="0" Status="Created"/>
+      <ChangedObject Attributes="13" Child="0" Filter="0x100" Membership="0" Name="TOP" Notes="0" Other="0" Ref="5" Reference="0" Status="Created"/>
+      <ChangedObject Attributes="8" Child="0" Filter="0x100" Membership="0" Name="Dielectric (0)" Notes="0" Other="0" Ref="2" Reference="0" Status="Created"/>
+      <ChangedObject Attributes="14" Child="0" Filter="0x100" Membership="0" Name="POWERPLANE_1" Notes="0" Other="0" Ref="6" Reference="0" Status="Created"/>
+      <ChangedObject Attributes="8" Child="0" Filter="0x100" Membership="0" Name="Dielectric (1)" Notes="0" Other="0" Ref="3" Reference="0" Status="Created"/>
+      <ChangedObject Attributes="13" Child="0" Filter="0x100" Membership="0" Name="BOTTOM" Notes="0" Other="0" Ref="7" Reference="0" Status="Created"/>
+      <ChangedObject Attributes="8" Child="0" Filter="0x100" Membership="0" Name="Surface (6)" Notes="0" Other="0" Ref="8" Reference="0" Status="Created"/>
+    </GroupSummary>
+    <ObjectSummary ID="3" Kind="Layer" Name="Dielectric (1)" Status="Created" Type="Dielectric">
+      <Attributes Filter="0x100" Type="Attributes">
+        <Attribute Filter="0x100" Name="CDS_LAYER_DIELECTRIC_CONSTANT" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>4.5</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_ELECTRICAL_CONDUCTIVITY" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_FUNCTION" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>DIELECTRIC</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_LOSS_TANGENT" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.035</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_MATERIAL" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>FR-4</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_THICKNESS" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.2032</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_THICKNESS_MINUS" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_THICKNESS_PLUS" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+      </Attributes>
+    </ObjectSummary>
+    <ObjectSummary ID="7" Kind="Layer" Name="BOTTOM" Status="Created" Type="Conductor">
+      <Attributes Filter="0x100" Type="Attributes">
+        <Attribute Filter="0x100" Name="CDS_LAYER_DIELECTRIC_CONSTANT" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>1</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_DIFF_COUPLING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>None</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_DIFF_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_ELECTRICAL_CONDUCTIVITY" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>596000</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_EMBEDDED_STATUS" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>Not embedded</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_ETCH_FACTOR" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>90</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_FUNCTION" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>CONDUCTOR</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_LINE_WIDTH" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_LOSS_TANGENT" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_MATERIAL" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>COPPER</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_THICKNESS" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.03048</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_THICKNESS_MINUS" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_THICKNESS_PLUS" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+      </Attributes>
+    </ObjectSummary>
+    <ObjectSummary ID="8" Kind="Layer" Name="Surface (6)" Status="Created" Type="Surface">
+      <Attributes Filter="0x100" Type="Attributes">
+        <Attribute Filter="0x100" Name="CDS_LAYER_DIELECTRIC_CONSTANT" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>1</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_ELECTRICAL_CONDUCTIVITY" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_FUNCTION" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>SURFACE</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_LOSS_TANGENT" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_MATERIAL" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>AIR</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_THICKNESS" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_THICKNESS_MINUS" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_THICKNESS_PLUS" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+      </Attributes>
+    </ObjectSummary>
+    <ObjectSummary ID="4" Kind="Layer" Name="Surface (0)" Status="Created" Type="Surface">
+      <Attributes Filter="0x100" Type="Attributes">
+        <Attribute Filter="0x100" Name="CDS_LAYER_DIELECTRIC_CONSTANT" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>1</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_ELECTRICAL_CONDUCTIVITY" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_FUNCTION" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>SURFACE</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_LOSS_TANGENT" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_MATERIAL" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>AIR</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_THICKNESS" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_THICKNESS_MINUS" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_THICKNESS_PLUS" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+      </Attributes>
+    </ObjectSummary>
+    <ObjectSummary ID="5" Kind="Layer" Name="TOP" Status="Created" Type="Conductor">
+      <Attributes Filter="0x100" Type="Attributes">
+        <Attribute Filter="0x100" Name="CDS_LAYER_DIELECTRIC_CONSTANT" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>1</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_DIFF_COUPLING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>None</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_DIFF_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_ELECTRICAL_CONDUCTIVITY" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>596000</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_EMBEDDED_STATUS" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>Not embedded</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_ETCH_FACTOR" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>90</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_FUNCTION" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>CONDUCTOR</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_LINE_WIDTH" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_LOSS_TANGENT" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_MATERIAL" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>COPPER</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_THICKNESS" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.03048</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_THICKNESS_MINUS" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_THICKNESS_PLUS" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+      </Attributes>
+    </ObjectSummary>
+    <ObjectSummary ID="2" Kind="Layer" Name="Dielectric (0)" Status="Created" Type="Dielectric">
+      <Attributes Filter="0x100" Type="Attributes">
+        <Attribute Filter="0x100" Name="CDS_LAYER_DIELECTRIC_CONSTANT" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>4.5</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_ELECTRICAL_CONDUCTIVITY" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_FUNCTION" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>DIELECTRIC</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_LOSS_TANGENT" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.035</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_MATERIAL" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>FR-4</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_THICKNESS" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.2032</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_THICKNESS_MINUS" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_THICKNESS_PLUS" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+      </Attributes>
+    </ObjectSummary>
+    <ObjectSummary ID="6" Kind="Layer" Name="POWERPLANE_1" Status="Created" Type="Plane">
+      <Attributes Filter="0x100" Type="Attributes">
+        <Attribute Filter="0x100" Name="CDS_LAYER_DIELECTRIC_CONSTANT" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>1</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_DIFF_COUPLING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>None</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_DIFF_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_ELECTRICAL_CONDUCTIVITY" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>596000</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_EMBEDDED_STATUS" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>Not embedded</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_ETCH_FACTOR" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>90</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_FUNCTION" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>PLANE</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_IS_SHIELD" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>1</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_LINE_WIDTH" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_LOSS_TANGENT" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_MATERIAL" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>COPPER</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_THICKNESS" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.03048</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_THICKNESS_MINUS" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x100" Name="CDS_LAYER_THICKNESS_PLUS" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+      </Attributes>
+    </ObjectSummary>
+    <GroupSummary ID="19" Name="Constraint Sets">
+      <ChangedObject Filter="0x4" Name="ElectricalCSets" ObjNumber="1" Ref="18"/>
+      <ChangedObject Filter="0xc" Name="PhysicalCSets" ObjNumber="3" Ref="1b"/>
+      <ChangedObject Filter="0x30" Name="SameNetSpacingCSets" ObjNumber="1" Ref="1d"/>
+      <ChangedObject Filter="0x10" Name="SpacingCSets" ObjNumber="1" Ref="1c"/>
+    </GroupSummary>
+    <GroupSummary ID="18" Name="ElectricalCSets">
+      <ChangedObject Attributes="3" Child="0" Filter="0x4" Membership="0" Name="DP" Notes="0" Other="0" Ref="e" Reference="0" Status="Created"/>
+    </GroupSummary>
+    <ObjectSummary ID="e" Kind="ElectricalCSet" Name="DP" Status="Created">
+      <Attributes Filter="0x4" Type="Attributes">
+        <Attribute Filter="0x4" Name="DIFFP_GATHER_CONTROL" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>IGNORE</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x4" Name="DIFFP_PHASE_TOL" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.51 mm</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x4" Name="DIFFP_UNCOUPLED_LENGTH" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>5.08</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+      </Attributes>
+    </ObjectSummary>
+    <GroupSummary ID="1a" Name="DiffPairs">
+      <ChangedObject Attributes="0" Child="0" Filter="0xe" Membership="2" Name="DPD" Notes="0" Other="0" Ref="d" Reference="2" Status="Created"/>
+    </GroupSummary>
+    <ObjectSummary ID="d" Kind="DiffPair" Name="DPD" Status="Created">
+      <Associations Filter="0x2" Type="Membership">
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="D-"/>
+        <Reference Add="1" Filter="0x40000000" Kind="Net" Name="D+"/>
+      </Associations>
+      <Associations Filter="0xc" Type="Reference">
+        <Reference Add="1" Filter="0x4" Kind="ElectricalCSet" Name="DP" Ref="e"/>
+        <Reference Add="1" Filter="0x8" Kind="PhysicalCSet" Name="DP" Ref="f"/>
+      </Associations>
+    </ObjectSummary>
+    <GroupSummary ID="1b" Name="PhysicalCSets">
+      <ChangedObject Attributes="15" Child="0" Filter="0xc" Membership="0" Name="DEFAULT" Notes="0" Other="0" Ref="a" Reference="0" Status="Created"/>
+      <ChangedObject Attributes="15" Child="0" Filter="0xc" Membership="0" Name="DP" Notes="0" Other="0" Ref="f" Reference="0" Status="Created"/>
+      <ChangedObject Attributes="15" Child="0" Filter="0xc" Membership="0" Name="POWER_GND" Notes="0" Other="0" Ref="13" Reference="0" Status="Created"/>
+    </GroupSummary>
+    <ObjectSummary ID="a" Kind="PhysicalCSet" Name="DEFAULT" Status="Created">
+      <Attributes Filter="0xc" Type="Attributes">
+        <Attribute Filter="0x8" Name="ALLOW_ON_ETCH_SUBCLASS" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>TRUE</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0xc" Name="DIFFP_COUPLED_MINUS" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.00</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0xc" Name="DIFFP_COUPLED_PLUS" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.00</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0xc" Name="DIFFP_MIN_SPACE" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.00</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0xc" Name="DIFFP_NECK_GAP" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.00</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0xc" Name="DIFFP_PRIMARY_GAP" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.00</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x8" Name="MAXIMUM_NECK_LENGTH" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.00</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x8" Name="MAX_BVIA_STAGGER" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.00</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x8" Name="MAX_LINE_WIDTH" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.00</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x8" Name="MIN_BVIA_STAGGER" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0xc" Name="MIN_LINE_WIDTH" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0xc" Name="MIN_NECK_WIDTH" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x8" Name="PAD_PAD_DIRECT_CONNECT" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>ALL_ALLOWED</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x8" Name="TS_ALLOWED" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>ANYWHERE</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x8" Name="VIA_LIST" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>VIA</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+      </Attributes>
+    </ObjectSummary>
+    <ObjectSummary ID="f" Kind="PhysicalCSet" Name="DP" Status="Created">
+      <Attributes Filter="0xc" Type="Attributes">
+        <Attribute Filter="0x8" Name="ALLOW_ON_ETCH_SUBCLASS" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>TRUE</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0xc" Name="DIFFP_COUPLED_MINUS" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.00</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0xc" Name="DIFFP_COUPLED_PLUS" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.00</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0xc" Name="DIFFP_MIN_SPACE" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.00</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0xc" Name="DIFFP_NECK_GAP" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.00</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0xc" Name="DIFFP_PRIMARY_GAP" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x8" Name="MAXIMUM_NECK_LENGTH" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.00</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x8" Name="MAX_BVIA_STAGGER" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.00</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x8" Name="MAX_LINE_WIDTH" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.00</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x8" Name="MIN_BVIA_STAGGER" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0xc" Name="MIN_LINE_WIDTH" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0xc" Name="MIN_NECK_WIDTH" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x8" Name="PAD_PAD_DIRECT_CONNECT" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>ALL_ALLOWED</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x8" Name="TS_ALLOWED" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>ANYWHERE</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x8" Name="VIA_LIST" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>VIA</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+      </Attributes>
+    </ObjectSummary>
+    <ObjectSummary ID="13" Kind="PhysicalCSet" Name="POWER_GND" Status="Created">
+      <Attributes Filter="0xc" Type="Attributes">
+        <Attribute Filter="0x8" Name="ALLOW_ON_ETCH_SUBCLASS" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>TRUE</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0xc" Name="DIFFP_COUPLED_MINUS" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.00</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0xc" Name="DIFFP_COUPLED_PLUS" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.00</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0xc" Name="DIFFP_MIN_SPACE" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.00</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0xc" Name="DIFFP_NECK_GAP" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.00</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0xc" Name="DIFFP_PRIMARY_GAP" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.00</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x8" Name="MAXIMUM_NECK_LENGTH" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>5.08</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x8" Name="MAX_BVIA_STAGGER" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.00</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x8" Name="MAX_LINE_WIDTH" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.00</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x8" Name="MIN_BVIA_STAGGER" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0xc" Name="MIN_LINE_WIDTH" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.38</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0xc" Name="MIN_NECK_WIDTH" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x8" Name="PAD_PAD_DIRECT_CONNECT" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>ALL_ALLOWED</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x8" Name="TS_ALLOWED" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>ANYWHERE</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x8" Name="VIA_LIST" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>VIA</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+      </Attributes>
+    </ObjectSummary>
+    <GroupSummary ID="1c" Name="SpacingCSets">
+      <ChangedObject Attributes="62" Child="0" Filter="0x10" Membership="0" Name="DEFAULT" Notes="0" Other="0" Ref="b" Reference="0" Status="Created"/>
+    </GroupSummary>
+    <ObjectSummary ID="b" Kind="SpacingCSet" Name="DEFAULT" Status="Created">
+      <Attributes Filter="0x10" Type="Attributes">
+        <Attribute Filter="0x10" Name="BBV_TO_BBV_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="BBV_TO_LINE_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="BBV_TO_SHAPE_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="BBV_TO_SMDPIN_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="BBV_TO_TESTPIN_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="BBV_TO_TESTVIA_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="BBV_TO_THRUPIN_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="BBV_TO_THRUVIA_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="BONDPAD_TO_BBV_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="BONDPAD_TO_BONDPAD_DIFFP_SPC" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="BONDPAD_TO_BONDPAD_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="BONDPAD_TO_LINE_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="BONDPAD_TO_MVIA_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="BONDPAD_TO_SHAPE_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="BONDPAD_TO_TESTPIN_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="BONDPAD_TO_TESTVIA_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="BONDPAD_TO_THRUVIA_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="HOLE_TO_HOLE_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.20</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="HOLE_TO_LINE_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.20</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="HOLE_TO_PIN_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.20</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="HOLE_TO_SHAPE_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.20</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="HOLE_TO_VIA_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.20</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="LINE_TO_LINE_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="LINE_TO_SHAPE_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="LINE_TO_SMDPIN_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="LINE_TO_TESTPIN_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="LINE_TO_TESTVIA_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="LINE_TO_THRUPIN_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="LINE_TO_THRUVIA_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="MIN_BVIA_GAP" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="MVIA_TO_BBV_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="MVIA_TO_LINE_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="MVIA_TO_MVIA_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="MVIA_TO_SHAPE_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="MVIA_TO_SMDPIN_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="MVIA_TO_TESTPIN_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="MVIA_TO_TESTVIA_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="MVIA_TO_THRUPIN_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="MVIA_TO_THRUVIA_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="SHAPE_TO_SHAPE_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="SHAPE_TO_SMDPIN_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="SHAPE_TO_TESTPIN_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="SHAPE_TO_TESTVIA_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="SHAPE_TO_THRUVIA_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="SMDPIN_TO_BONDPAD_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="SMDPIN_TO_SMDPIN_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="SMDPIN_TO_TESTPIN_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="SMDPIN_TO_TESTVIA_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="SMDPIN_TO_THRUVIA_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="TESTPIN_TO_TESTPIN_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="TESTPIN_TO_TESTVIA_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="TESTPIN_TO_THRUPIN_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="TESTPIN_TO_THRUVIA_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="TESTVIA_TO_TESTVIA_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="TESTVIA_TO_THRUPIN_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="TESTVIA_TO_THRUVIA_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="THRUPIN_TO_BONDPAD_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="THRUPIN_TO_SHAPE_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="THRUPIN_TO_SMDPIN_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="THRUPIN_TO_THRUPIN_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="THRUPIN_TO_THRUVIA_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x10" Name="THRUVIA_TO_THRUVIA_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+      </Attributes>
+    </ObjectSummary>
+    <GroupSummary ID="1d" Name="SameNetSpacingCSets">
+      <ChangedObject Attributes="61" Child="0" Filter="0x30" Membership="0" Name="DEFAULT" Notes="0" Other="0" Ref="c" Reference="0" Status="Created"/>
+    </GroupSummary>
+    <ObjectSummary ID="c" Kind="SameNetSpacingCSet" Name="DEFAULT" Status="Created">
+      <Attributes Filter="0x30" Type="Attributes">
+        <Attribute Filter="0x30" Name="SAME_NET" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>TRUE</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_BBV_TO_BBV_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_BBV_TO_LINE_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_BBV_TO_SHAPE_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_BBV_TO_SMDPIN_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_BBV_TO_TESTPIN_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_BBV_TO_TESTVIA_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_BBV_TO_THRUPIN_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_BBV_TO_THRUVIA_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_BONDPAD_TO_BBV_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_BONDPAD_TO_BONDPAD_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_BONDPAD_TO_LINE_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_BONDPAD_TO_MVIA_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_BONDPAD_TO_SHAPE_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_BONDPAD_TO_TESTPIN_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_BONDPAD_TO_TESTVIA_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_BONDPAD_TO_THRUVIA_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_HOLE_TO_HOLE_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.20</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_HOLE_TO_LINE_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.20</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_HOLE_TO_PIN_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.20</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_HOLE_TO_SHAPE_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.20</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_HOLE_TO_VIA_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.20</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_LINE_TO_LINE_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_LINE_TO_SHAPE_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_LINE_TO_SMDPIN_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_LINE_TO_TESTPIN_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_LINE_TO_TESTVIA_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_LINE_TO_THRUPIN_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_LINE_TO_THRUVIA_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_MVIA_TO_BBV_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_MVIA_TO_LINE_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_MVIA_TO_MVIA_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_MVIA_TO_SHAPE_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_MVIA_TO_SMDPIN_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_MVIA_TO_TESTPIN_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_MVIA_TO_TESTVIA_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_MVIA_TO_THRUPIN_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_MVIA_TO_THRUVIA_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_SHAPE_TO_SHAPE_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_SHAPE_TO_SMDPIN_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_SHAPE_TO_TESTPIN_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_SHAPE_TO_TESTVIA_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_SHAPE_TO_THRUVIA_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_SMDPIN_TO_BONDPAD_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_SMDPIN_TO_SMDPIN_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_SMDPIN_TO_TESTPIN_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_SMDPIN_TO_TESTVIA_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_SMDPIN_TO_THRUVIA_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_TESTPIN_TO_TESTPIN_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_TESTPIN_TO_TESTVIA_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_TESTPIN_TO_THRUPIN_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_TESTPIN_TO_THRUVIA_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_TESTVIA_TO_TESTVIA_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_TESTVIA_TO_THRUPIN_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_TESTVIA_TO_THRUVIA_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_THRUPIN_TO_BONDPAD_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_THRUPIN_TO_SHAPE_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_THRUPIN_TO_SMDPIN_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_THRUPIN_TO_THRUPIN_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_THRUPIN_TO_THRUVIA_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+        <Attribute Filter="0x20" Name="SN_THRUVIA_TO_THRUVIA_SPACING" Status="Add" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst></Dst>
+            <Src>0.13</Src>
+            <Base></Base>
+          </Value>
+        </Attribute>
+      </Attributes>
+    </ObjectSummary>
+    <GroupSummary ID="1e" Name="Stackups">
+      <ChangedObject Attributes="0" Child="0" Filter="0x2" Membership="7" Name="PRIMARY" Notes="0" Other="0" Ref="9" Reference="0" Status="Created"/>
+    </GroupSummary>
+    <ObjectSummary ID="9" Kind="Stackup" Name="PRIMARY" Status="Created">
+      <Associations Filter="0x2" Type="Membership">
+        <Reference Add="1" Filter="0x40000000" Kind="Layer" Name="Surface (0)" Ref="4" SortIndex="2"/>
+        <Reference Add="1" Filter="0x40000000" Kind="Layer" Name="TOP" Ref="5" SortIndex="4"/>
+        <Reference Add="1" Filter="0x40000000" Kind="Layer" Name="Dielectric (0)" Ref="2" SortIndex="6"/>
+        <Reference Add="1" Filter="0x40000000" Kind="Layer" Name="POWERPLANE_1" Ref="6" SortIndex="8"/>
+        <Reference Add="1" Filter="0x40000000" Kind="Layer" Name="Dielectric (1)" Ref="3" SortIndex="10"/>
+        <Reference Add="1" Filter="0x40000000" Kind="Layer" Name="BOTTOM" Ref="7" SortIndex="12"/>
+        <Reference Add="1" Filter="0x40000000" Kind="Layer" Name="Surface (6)" Ref="8" SortIndex="14"/>
+      </Associations>
+    </ObjectSummary>
+  </Summaries>
+
+  <Layers>
+    <Layer Name="TOP" Type="Conductor"/>
+    <Layer Name="POWERPLANE_1" Type="Plane"/>
+    <Layer Name="BOTTOM" Type="Conductor"/>
+  </Layers>
+
+  <GenericLayers>
+    <Layer Name="Conductor"/>
+    <Layer Name="Plane"/>
+  </GenericLayers>
+
+</ConstraintDifferenceReport>
