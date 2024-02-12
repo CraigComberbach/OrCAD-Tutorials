@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : pcb_tutorial.brd                              )
 (    Software Version : 22.1P001                                      )
-(    Date/Time        : Mon Feb 12 09:59:37 2024                      )
+(    Date/Time        : Mon Feb 12 16:45:32 2024                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -39,7 +39,7 @@
 
 ================================================================
      PROCESSING FILM < TOP >
-     TO FILE < C:/USERS/CRAIGCOMBERBACH/ONEDRIVE - SMARTREND MANUFACTURING GROUP/DESKTOP/ORCAD-TUTORIALS/Working Gerbers/TOP.art > ...
+     TO FILE < c:/users/craigcomberbach/onedrive - smartrend manufacturing group/desktop/orcad-tutorials/Working Gerbers/TOP.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -53,6 +53,9 @@
   Suppress unconnected internal pads  NO
   Draw holes only                     NO
 
+    WARNING: Film contains objects with associated DRCs (7).
+           In the design editor view this film and enable visibility for the
+           associated DRC layer. Verify the DRCs are approved exceptions to your rules.
     WARNING: Null REGULAR-PAD specified for padstack HN330M350 at (42.50 10.50).
     WARNING: Null REGULAR-PAD specified for padstack HN330M350 at (42.50 39.50).
     WARNING: Null REGULAR-PAD specified for padstack HN330M350 at (95.50 10.50).
@@ -63,6 +66,9 @@
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
+  CIRCLE     0.00512                                  DARK 
+  CIRCLE     0.01496                                  DARK 
+  CIRCLE     0.02402                                  DARK 
   CIRCLE     0.05591                                  DARK 
   CIRCLE     0.07402                                  DARK 
   CIRCLE     0.15984                                  DARK 
@@ -84,7 +90,7 @@
 
 ================================================================
      PROCESSING FILM < POWERPLANE_1 >
-     TO FILE < C:/USERS/CRAIGCOMBERBACH/ONEDRIVE - SMARTREND MANUFACTURING GROUP/DESKTOP/ORCAD-TUTORIALS/Working Gerbers/POWERPLANE_1.art > ...
+     TO FILE < c:/users/craigcomberbach/onedrive - smartrend manufacturing group/desktop/orcad-tutorials/Working Gerbers/POWERPLANE_1.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -98,12 +104,17 @@
   Suppress unconnected internal pads  NO
   Draw holes only                     NO
 
+    WARNING: Film contains objects with associated DRCs (1).
+           In the design editor view this film and enable visibility for the
+           associated DRC layer. Verify the DRCs are approved exceptions to your rules.
 
 
   APERTURES USED (UNIT = IN):
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
+  CIRCLE     0.01496                                  DARK 
+  CIRCLE     0.02402                                  DARK 
   CIRCLE     0.05591                                  DARK 
   CIRCLE     0.07402                                  DARK 
   CIRCLE     0.15000                                  DARK 
@@ -113,7 +124,7 @@
 
 ================================================================
      PROCESSING FILM < BOTTOM >
-     TO FILE < C:/USERS/CRAIGCOMBERBACH/ONEDRIVE - SMARTREND MANUFACTURING GROUP/DESKTOP/ORCAD-TUTORIALS/Working Gerbers/BOTTOM.art > ...
+     TO FILE < c:/users/craigcomberbach/onedrive - smartrend manufacturing group/desktop/orcad-tutorials/Working Gerbers/BOTTOM.art > ...
 ================================================================
 
   FILM PARAMETERS :
@@ -127,6 +138,9 @@
   Suppress unconnected internal pads  NO
   Draw holes only                     NO
 
+    WARNING: Film contains objects with associated DRCs (1).
+           In the design editor view this film and enable visibility for the
+           associated DRC layer. Verify the DRCs are approved exceptions to your rules.
     WARNING: Null REGULAR-PAD specified for padstack HN330M350 at (42.50 10.50).
     WARNING: Null REGULAR-PAD specified for padstack HN330M350 at (42.50 39.50).
     WARNING: Null REGULAR-PAD specified for padstack HN330M350 at (95.50 10.50).
@@ -137,6 +151,9 @@
   ---------------------------------------------------------
   TYPE       SIZE/NAME                   ROT   MIRROR MODE 
   ---------------------------------------------------------
+  CIRCLE     0.00512                                  DARK 
+  CIRCLE     0.01496                                  DARK 
+  CIRCLE     0.02402                                  DARK 
   CIRCLE     0.05591                                  DARK 
   CIRCLE     0.07402                                  DARK 
   CIRCLE     0.15984                                  DARK 
