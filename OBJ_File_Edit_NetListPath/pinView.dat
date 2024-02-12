@@ -1,139 +1,139 @@
-A!NET_NAME!REFDES!PIN_NUMBER!FUNC_LOGICAL_PATH!COMP_DEVICE_TYPE!FUNC_SCH_SIZE!FUNC_HAS_FIXED_SIZE!FUNC_DES!PIN_NET_SHORT!PIN_NO_SWAP_PIN!PIN_NO_PIN_ESCAPE!PIN_CDS_PINID!PIN_XNET_PINS!PIN_PIN_ESCAPE!PIN_PIN_SIGNAL_MODEL!PIN_NO_DRC!PIN_NO_SHAPE_CONNECT!
-J!c:/users/craigcomberbach/onedrive - smartrend manufacturing group/desktop/orcad-tutorials/pcb_tutorial.brd!Mon Feb 12 10:14:13 2024!-117.00!-235.00!416.40!196.80!0.01!millimeters!CAPTURE_TUTORIAL!19.600000 mil!3!UP TO DATE!
-S!VBUS!U1!6!@capture_tutorial.schematic1(sch_1):ins951@capture_tutorial.\lt1965ems8e-1p5_1.normal\(chips)!LT1965EMS8E-1P5_1_LT1965EMS8E-1.5_MSOP_8_ADI_LT1965EMS8E-1P5!!!F2!!!!!!!!!!
-S!GND!U1!4!@capture_tutorial.schematic1(sch_1):ins951@capture_tutorial.\lt1965ems8e-1p5_1.normal\(chips)!LT1965EMS8E-1P5_1_LT1965EMS8E-1.5_MSOP_8_ADI_LT1965EMS8E-1P5!!!F2!!!!!!!!!!
-S!GND!U1!5!@capture_tutorial.schematic1(sch_1):ins951@capture_tutorial.\lt1965ems8e-1p5_1.normal\(chips)!LT1965EMS8E-1P5_1_LT1965EMS8E-1.5_MSOP_8_ADI_LT1965EMS8E-1P5!!!F2!!!!!!!!!!
-S!VBUS!U1!7!@capture_tutorial.schematic1(sch_1):ins951@capture_tutorial.\lt1965ems8e-1p5_1.normal\(chips)!LT1965EMS8E-1P5_1_LT1965EMS8E-1.5_MSOP_8_ADI_LT1965EMS8E-1P5!!!F2!!!!!!!!!!
-S!VBUS!U1!8!@capture_tutorial.schematic1(sch_1):ins951@capture_tutorial.\lt1965ems8e-1p5_1.normal\(chips)!LT1965EMS8E-1P5_1_LT1965EMS8E-1.5_MSOP_8_ADI_LT1965EMS8E-1P5!!!F2!!!!!!!!!!
-S!3.3V!U1!1!@capture_tutorial.schematic1(sch_1):ins951@capture_tutorial.\lt1965ems8e-1p5_1.normal\(chips)!LT1965EMS8E-1P5_1_LT1965EMS8E-1.5_MSOP_8_ADI_LT1965EMS8E-1P5!!!F2!!!!!!!!!!
-S!3.3V!U1!2!@capture_tutorial.schematic1(sch_1):ins951@capture_tutorial.\lt1965ems8e-1p5_1.normal\(chips)!LT1965EMS8E-1P5_1_LT1965EMS8E-1.5_MSOP_8_ADI_LT1965EMS8E-1P5!!!F2!!!!!!!!!!
-S!3.3V!U1!3!@capture_tutorial.schematic1(sch_1):ins951@capture_tutorial.\lt1965ems8e-1p5_1.normal\(chips)!LT1965EMS8E-1P5_1_LT1965EMS8E-1.5_MSOP_8_ADI_LT1965EMS8E-1P5!!!F2!!!!!!!!!!
-S!3.3V!C4!1!@capture_tutorial.schematic1(sch_1):ins668@discrete.\cap np.normal\(chips)!CAP NP_0402-CAP_0.1UF!!!F13!!!!!!!!!!
-S!GND!C4!2!@capture_tutorial.schematic1(sch_1):ins668@discrete.\cap np.normal\(chips)!CAP NP_0402-CAP_0.1UF!!!F13!!!!!!!!!!
-S!3.3V!C5!1!@capture_tutorial.schematic1(sch_1):ins684@discrete.\cap np.normal\(chips)!CAP NP_0402-CAP_0.1UF!!!F12!!!!!!!!!!
-S!GND!C5!2!@capture_tutorial.schematic1(sch_1):ins684@discrete.\cap np.normal\(chips)!CAP NP_0402-CAP_0.1UF!!!F12!!!!!!!!!!
-S!3.3V!C6!1!@capture_tutorial.schematic1(sch_1):ins700@discrete.\cap np.normal\(chips)!CAP NP_0402-CAP_0.1UF!!!F11!!!!!!!!!!
-S!GND!C6!2!@capture_tutorial.schematic1(sch_1):ins700@discrete.\cap np.normal\(chips)!CAP NP_0402-CAP_0.1UF!!!F11!!!!!!!!!!
-S!3.3V!C7!1!@capture_tutorial.schematic1(sch_1):ins716@discrete.\cap np.normal\(chips)!CAP NP_0402-CAP_0.1UF!!!F10!!!!!!!!!!
-S!GND!C7!2!@capture_tutorial.schematic1(sch_1):ins716@discrete.\cap np.normal\(chips)!CAP NP_0402-CAP_0.1UF!!!F10!!!!!!!!!!
-S!3.3V!C8!1!@capture_tutorial.schematic1(sch_1):ins732@discrete.\cap np.normal\(chips)!CAP NP_0402-CAP_0.1UF!!!F9!!!!!!!!!!
-S!GND!C8!2!@capture_tutorial.schematic1(sch_1):ins732@discrete.\cap np.normal\(chips)!CAP NP_0402-CAP_0.1UF!!!F9!!!!!!!!!!
-S!3.3V!C2!1!@capture_tutorial.schematic1(sch_1):ins620@discrete.\cap np.normal\(chips)!CAP NP_1210_100UF!!!F14!!!!!!!!!!
-S!GND!C2!2!@capture_tutorial.schematic1(sch_1):ins620@discrete.\cap np.normal\(chips)!CAP NP_1210_100UF!!!F14!!!!!!!!!!
-S!VBUS!C1!1!@capture_tutorial.schematic1(sch_1):ins636@discrete.\cap np.normal\(chips)!CAP NP_0402-CAP_10UF!!!F17!!!!!!!!!!
-S!GND!C1!2!@capture_tutorial.schematic1(sch_1):ins636@discrete.\cap np.normal\(chips)!CAP NP_0402-CAP_10UF!!!F17!!!!!!!!!!
-S!N02189!C3!1!@capture_tutorial.schematic1(sch_1):ins652@discrete.\cap np.normal\(chips)!CAP NP_0402-CAP_10UF!!!F16!!!!!!!!!!
-S!GND!C3!2!@capture_tutorial.schematic1(sch_1):ins652@discrete.\cap np.normal\(chips)!CAP NP_0402-CAP_10UF!!!F16!!!!!!!!!!
-S!N02114!C9!1!@capture_tutorial.schematic1(sch_1):ins748@discrete.\cap np.normal\(chips)!CAP NP_0402-CAP_10UF!!!F15!!!!!!!!!!
-S!GND!C9!2!@capture_tutorial.schematic1(sch_1):ins748@discrete.\cap np.normal\(chips)!CAP NP_0402-CAP_10UF!!!F15!!!!!!!!!!
-S!3.3V!IC1!19!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!GND!IC1!20!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!D+!IC1!37!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!D-!IC1!36!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!!IC1!57!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!!IC1!16!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!!IC1!23!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!!IC1!24!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!!IC1!27!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!!IC1!28!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!RTS!IC1!29!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!!IC1!30!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!!IC1!15!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!!IC1!14!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!!IC1!13!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!!IC1!12!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!!IC1!11!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!PROG0!IC1!17!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!PROG1!IC1!18!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!CTS!IC1!21!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!!IC1!22!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!N02098!IC1!39!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!!IC1!47!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!!IC1!48!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!N02102!IC1!40!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!!IC1!46!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!!IC1!44!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!!IC1!45!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!!IC1!49!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!!IC1!50!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!!IC1!51!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!!IC1!52!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!!IC1!53!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!!IC1!54!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!!IC1!55!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!!IC1!42!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!!IC1!43!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!!IC1!60!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!!IC1!61!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!!IC1!62!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!!IC1!63!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!!IC1!64!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!!IC1!1!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!!IC1!2!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!!IC1!3!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!!IC1!58!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!SHDN!IC1!59!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!!IC1!33!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!URX!IC1!31!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!UTX!IC1!32!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!!IC1!4!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!!IC1!5!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!!IC1!6!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!!IC1!8!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!VBUS!IC1!34!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!N02114!IC1!56!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!3.3V!IC1!10!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!3.3V!IC1!26!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!3.3V!IC1!38!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!GND!IC1!25!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!GND!IC1!41!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!GND!IC1!9!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!3.3V!IC1!35!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!RESET!IC1!7!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!!!!!
-S!!JP1!12!@capture_tutorial.schematic1(sch_1):ins489@\capture tutorial2\.\xtend-digi-modem.normal\(chips)!XTEND-DIGI-MODEM_XTEND-DIGI-MODEM_XTEND-DIGI-MODEM!!!F7!!!!!!!!!!
-S!!JP1!13!@capture_tutorial.schematic1(sch_1):ins489@\capture tutorial2\.\xtend-digi-modem.normal\(chips)!XTEND-DIGI-MODEM_XTEND-DIGI-MODEM_XTEND-DIGI-MODEM!!!F7!!!!!!!!!!
-S!!JP1!14!@capture_tutorial.schematic1(sch_1):ins489@\capture tutorial2\.\xtend-digi-modem.normal\(chips)!XTEND-DIGI-MODEM_XTEND-DIGI-MODEM_XTEND-DIGI-MODEM!!!F7!!!!!!!!!!
-S!!JP1!15!@capture_tutorial.schematic1(sch_1):ins489@\capture tutorial2\.\xtend-digi-modem.normal\(chips)!XTEND-DIGI-MODEM_XTEND-DIGI-MODEM_XTEND-DIGI-MODEM!!!F7!!!!!!!!!!
-S!!JP1!16!@capture_tutorial.schematic1(sch_1):ins489@\capture tutorial2\.\xtend-digi-modem.normal\(chips)!XTEND-DIGI-MODEM_XTEND-DIGI-MODEM_XTEND-DIGI-MODEM!!!F7!!!!!!!!!!
-S!!JP1!17!@capture_tutorial.schematic1(sch_1):ins489@\capture tutorial2\.\xtend-digi-modem.normal\(chips)!XTEND-DIGI-MODEM_XTEND-DIGI-MODEM_XTEND-DIGI-MODEM!!!F7!!!!!!!!!!
-S!!JP1!18!@capture_tutorial.schematic1(sch_1):ins489@\capture tutorial2\.\xtend-digi-modem.normal\(chips)!XTEND-DIGI-MODEM_XTEND-DIGI-MODEM_XTEND-DIGI-MODEM!!!F7!!!!!!!!!!
-S!!JP1!19!@capture_tutorial.schematic1(sch_1):ins489@\capture tutorial2\.\xtend-digi-modem.normal\(chips)!XTEND-DIGI-MODEM_XTEND-DIGI-MODEM_XTEND-DIGI-MODEM!!!F7!!!!!!!!!!
-S!!JP1!20!@capture_tutorial.schematic1(sch_1):ins489@\capture tutorial2\.\xtend-digi-modem.normal\(chips)!XTEND-DIGI-MODEM_XTEND-DIGI-MODEM_XTEND-DIGI-MODEM!!!F7!!!!!!!!!!
-S!N02189!JP1!11!@capture_tutorial.schematic1(sch_1):ins489@\capture tutorial2\.\xtend-digi-modem.normal\(chips)!XTEND-DIGI-MODEM_XTEND-DIGI-MODEM_XTEND-DIGI-MODEM!!!F7!!!!!!!!!!
-S!CTS!JP1!9!@capture_tutorial.schematic1(sch_1):ins489@\capture tutorial2\.\xtend-digi-modem.normal\(chips)!XTEND-DIGI-MODEM_XTEND-DIGI-MODEM_XTEND-DIGI-MODEM!!!F7!!!!!!!!!!
-S!UTX!JP1!5!@capture_tutorial.schematic1(sch_1):ins489@\capture tutorial2\.\xtend-digi-modem.normal\(chips)!XTEND-DIGI-MODEM_XTEND-DIGI-MODEM_XTEND-DIGI-MODEM!!!F7!!!!!!!!!!
-S!URX!JP1!6!@capture_tutorial.schematic1(sch_1):ins489@\capture tutorial2\.\xtend-digi-modem.normal\(chips)!XTEND-DIGI-MODEM_XTEND-DIGI-MODEM_XTEND-DIGI-MODEM!!!F7!!!!!!!!!!
-S!GND!JP1!1!@capture_tutorial.schematic1(sch_1):ins489@\capture tutorial2\.\xtend-digi-modem.normal\(chips)!XTEND-DIGI-MODEM_XTEND-DIGI-MODEM_XTEND-DIGI-MODEM!!!F7!!!!!!!!!!
-S!!JP1!3!@capture_tutorial.schematic1(sch_1):ins489@\capture tutorial2\.\xtend-digi-modem.normal\(chips)!XTEND-DIGI-MODEM_XTEND-DIGI-MODEM_XTEND-DIGI-MODEM!!!F7!!!!!!!!!!
-S!RTS!JP1!10!@capture_tutorial.schematic1(sch_1):ins489@\capture tutorial2\.\xtend-digi-modem.normal\(chips)!XTEND-DIGI-MODEM_XTEND-DIGI-MODEM_XTEND-DIGI-MODEM!!!F7!!!!!!!!!!
-S!SHDN!JP1!7!@capture_tutorial.schematic1(sch_1):ins489@\capture tutorial2\.\xtend-digi-modem.normal\(chips)!XTEND-DIGI-MODEM_XTEND-DIGI-MODEM_XTEND-DIGI-MODEM!!!F7!!!!!!!!!!
-S!!JP1!8!@capture_tutorial.schematic1(sch_1):ins489@\capture tutorial2\.\xtend-digi-modem.normal\(chips)!XTEND-DIGI-MODEM_XTEND-DIGI-MODEM_XTEND-DIGI-MODEM!!!F7!!!!!!!!!!
-S!!JP1!4!@capture_tutorial.schematic1(sch_1):ins489@\capture tutorial2\.\xtend-digi-modem.normal\(chips)!XTEND-DIGI-MODEM_XTEND-DIGI-MODEM_XTEND-DIGI-MODEM!!!F7!!!!!!!!!!
-S!VBUS!JP1!2!@capture_tutorial.schematic1(sch_1):ins489@\capture tutorial2\.\xtend-digi-modem.normal\(chips)!XTEND-DIGI-MODEM_XTEND-DIGI-MODEM_XTEND-DIGI-MODEM!!!F7!!!!!!!!!!
-S!RESET!JP2!1!@capture_tutorial.schematic1(sch_1):ins554@\capture tutorial2\.\m06_lock.normal\(chips)!M06_LOCK_1X06_LOCK_PIC 32 PROG!!!F6!!!!!!!!!!
-S!3.3V!JP2!2!@capture_tutorial.schematic1(sch_1):ins554@\capture tutorial2\.\m06_lock.normal\(chips)!M06_LOCK_1X06_LOCK_PIC 32 PROG!!!F6!!!!!!!!!!
-S!GND!JP2!3!@capture_tutorial.schematic1(sch_1):ins554@\capture tutorial2\.\m06_lock.normal\(chips)!M06_LOCK_1X06_LOCK_PIC 32 PROG!!!F6!!!!!!!!!!
-S!PROG1!JP2!4!@capture_tutorial.schematic1(sch_1):ins554@\capture tutorial2\.\m06_lock.normal\(chips)!M06_LOCK_1X06_LOCK_PIC 32 PROG!!!F6!!!!!!!!!!
-S!PROG0!JP2!5!@capture_tutorial.schematic1(sch_1):ins554@\capture tutorial2\.\m06_lock.normal\(chips)!M06_LOCK_1X06_LOCK_PIC 32 PROG!!!F6!!!!!!!!!!
-S!!JP2!6!@capture_tutorial.schematic1(sch_1):ins554@\capture tutorial2\.\m06_lock.normal\(chips)!M06_LOCK_1X06_LOCK_PIC 32 PROG!!!F6!!!!!!!!!!
-S!N01899!MAIN_PWR!2!@capture_tutorial.schematic1(sch_1):ins814@discrete.\led.normal\(chips)!LED_LED_LNJ_LED!!!F5!!!!!!!!!!
-S!GND!MAIN_PWR!1!@capture_tutorial.schematic1(sch_1):ins814@discrete.\led.normal\(chips)!LED_LED_LNJ_LED!!!F5!!!!!!!!!!
-S!3.3V!R1!1!@capture_tutorial.schematic1(sch_1):ins773@discrete.\resistor.normal\(chips)!RESISTOR_0402-RES_150!!!F4!!!!!!!!!!
-S!N01899!R1!2!@capture_tutorial.schematic1(sch_1):ins773@discrete.\resistor.normal\(chips)!RESISTOR_0402-RES_150!!!F4!!!!!!!!!!
-S!N02189!R2!1!@capture_tutorial.schematic1(sch_1):ins789@discrete.\resistor.normal\(chips)!RESISTOR_0402-RES_56K!!!F3!!!!!!!!!!
-S!3.3V!R2!2!@capture_tutorial.schematic1(sch_1):ins789@discrete.\resistor.normal\(chips)!RESISTOR_0402-RES_56K!!!F3!!!!!!!!!!
-S!D+!X1!D+!@capture_tutorial.schematic1(sch_1):ins369@\capture tutorial2\.\usb-microb.normal\(chips)!USB-MICROB_USB-MICROB_USB-B!!!F1!!!!!!!!!!
-S!D-!X1!D-!@capture_tutorial.schematic1(sch_1):ins369@\capture tutorial2\.\usb-microb.normal\(chips)!USB-MICROB_USB-MICROB_USB-B!!!F1!!!!!!!!!!
-S!GND!X1!GND!@capture_tutorial.schematic1(sch_1):ins369@\capture tutorial2\.\usb-microb.normal\(chips)!USB-MICROB_USB-MICROB_USB-B!!!F1!!!!!!!!!!
-S!!X1!MT1!@capture_tutorial.schematic1(sch_1):ins369@\capture tutorial2\.\usb-microb.normal\(chips)!USB-MICROB_USB-MICROB_USB-B!!!F1!!!!!!!!!!
-S!!X1!MT2!@capture_tutorial.schematic1(sch_1):ins369@\capture tutorial2\.\usb-microb.normal\(chips)!USB-MICROB_USB-MICROB_USB-B!!!F1!!!!!!!!!!
-S!!X1!MT3!@capture_tutorial.schematic1(sch_1):ins369@\capture tutorial2\.\usb-microb.normal\(chips)!USB-MICROB_USB-MICROB_USB-B!!!F1!!!!!!!!!!
-S!!X1!MT4!@capture_tutorial.schematic1(sch_1):ins369@\capture tutorial2\.\usb-microb.normal\(chips)!USB-MICROB_USB-MICROB_USB-B!!!F1!!!!!!!!!!
-S!!X1!P_1!@capture_tutorial.schematic1(sch_1):ins369@\capture tutorial2\.\usb-microb.normal\(chips)!USB-MICROB_USB-MICROB_USB-B!!!F1!!!!!!!!!!
-S!!X1!P_2!@capture_tutorial.schematic1(sch_1):ins369@\capture tutorial2\.\usb-microb.normal\(chips)!USB-MICROB_USB-MICROB_USB-B!!!F1!!!!!!!!!!
-S!!X1!ID!@capture_tutorial.schematic1(sch_1):ins369@\capture tutorial2\.\usb-microb.normal\(chips)!USB-MICROB_USB-MICROB_USB-B!!!F1!!!!!!!!!!
-S!VBUS!X1!VBUS!@capture_tutorial.schematic1(sch_1):ins369@\capture tutorial2\.\usb-microb.normal\(chips)!USB-MICROB_USB-MICROB_USB-B!!!F1!!!!!!!!!!
-S!N02098!Y1!1!@capture_tutorial.schematic1(sch_1):ins591@\capture tutorial2\.\crystal.normal\(chips)!CRYSTAL_CRYSTAL-SMD_8MHZ!!!F0!!!!!!!!!!
-S!N02102!Y1!3!@capture_tutorial.schematic1(sch_1):ins591@\capture tutorial2\.\crystal.normal\(chips)!CRYSTAL_CRYSTAL-SMD_8MHZ!!!F0!!!!!!!!!!
-S!GND!Y1!2!@capture_tutorial.schematic1(sch_1):ins591@\capture tutorial2\.\crystal.normal\(chips)!CRYSTAL_CRYSTAL-SMD_8MHZ!!!F0!!!!!!!!!!
-S!GND!Y1!4!@capture_tutorial.schematic1(sch_1):ins591@\capture tutorial2\.\crystal.normal\(chips)!CRYSTAL_CRYSTAL-SMD_8MHZ!!!F0!!!!!!!!!!
+A!NET_NAME!REFDES!PIN_NUMBER!FUNC_LOGICAL_PATH!COMP_DEVICE_TYPE!FUNC_SCH_SIZE!FUNC_HAS_FIXED_SIZE!FUNC_DES!PIN_CDS_PINID!PIN_TERMINATION!PIN_TERM_IDENT!PIN_NET_SHORT!PIN_XNET_PINS!
+J!c:/users/craigcomberbach/onedrive - smartrend manufacturing group/desktop/orcad-tutorials/pcb_tutorial.brd!Mon Feb 12 10:21:05 2024!-117.00!-235.00!416.40!196.80!0.01!millimeters!CAPTURE_TUTORIAL!19.600000 mil!3!UP TO DATE!
+S!VBUS!U1!6!@capture_tutorial.schematic1(sch_1):ins951@capture_tutorial.\lt1965ems8e-1p5_1.normal\(chips)!LT1965EMS8E-1P5_1_LT1965EMS8E-1.5_MSOP_8_ADI_LT1965EMS8E-1P5!!!F2!!!!!!
+S!GND!U1!4!@capture_tutorial.schematic1(sch_1):ins951@capture_tutorial.\lt1965ems8e-1p5_1.normal\(chips)!LT1965EMS8E-1P5_1_LT1965EMS8E-1.5_MSOP_8_ADI_LT1965EMS8E-1P5!!!F2!!!!!!
+S!GND!U1!5!@capture_tutorial.schematic1(sch_1):ins951@capture_tutorial.\lt1965ems8e-1p5_1.normal\(chips)!LT1965EMS8E-1P5_1_LT1965EMS8E-1.5_MSOP_8_ADI_LT1965EMS8E-1P5!!!F2!!!!!!
+S!VBUS!U1!7!@capture_tutorial.schematic1(sch_1):ins951@capture_tutorial.\lt1965ems8e-1p5_1.normal\(chips)!LT1965EMS8E-1P5_1_LT1965EMS8E-1.5_MSOP_8_ADI_LT1965EMS8E-1P5!!!F2!!!!!!
+S!VBUS!U1!8!@capture_tutorial.schematic1(sch_1):ins951@capture_tutorial.\lt1965ems8e-1p5_1.normal\(chips)!LT1965EMS8E-1P5_1_LT1965EMS8E-1.5_MSOP_8_ADI_LT1965EMS8E-1P5!!!F2!!!!!!
+S!3.3V!U1!1!@capture_tutorial.schematic1(sch_1):ins951@capture_tutorial.\lt1965ems8e-1p5_1.normal\(chips)!LT1965EMS8E-1P5_1_LT1965EMS8E-1.5_MSOP_8_ADI_LT1965EMS8E-1P5!!!F2!!!!!!
+S!3.3V!U1!2!@capture_tutorial.schematic1(sch_1):ins951@capture_tutorial.\lt1965ems8e-1p5_1.normal\(chips)!LT1965EMS8E-1P5_1_LT1965EMS8E-1.5_MSOP_8_ADI_LT1965EMS8E-1P5!!!F2!!!!!!
+S!3.3V!U1!3!@capture_tutorial.schematic1(sch_1):ins951@capture_tutorial.\lt1965ems8e-1p5_1.normal\(chips)!LT1965EMS8E-1P5_1_LT1965EMS8E-1.5_MSOP_8_ADI_LT1965EMS8E-1P5!!!F2!!!!!!
+S!3.3V!C4!1!@capture_tutorial.schematic1(sch_1):ins668@discrete.\cap np.normal\(chips)!CAP NP_0402-CAP_0.1UF!!!F13!!!!!!
+S!GND!C4!2!@capture_tutorial.schematic1(sch_1):ins668@discrete.\cap np.normal\(chips)!CAP NP_0402-CAP_0.1UF!!!F13!!!!!!
+S!3.3V!C5!1!@capture_tutorial.schematic1(sch_1):ins684@discrete.\cap np.normal\(chips)!CAP NP_0402-CAP_0.1UF!!!F12!!!!!!
+S!GND!C5!2!@capture_tutorial.schematic1(sch_1):ins684@discrete.\cap np.normal\(chips)!CAP NP_0402-CAP_0.1UF!!!F12!!!!!!
+S!3.3V!C6!1!@capture_tutorial.schematic1(sch_1):ins700@discrete.\cap np.normal\(chips)!CAP NP_0402-CAP_0.1UF!!!F11!!!!!!
+S!GND!C6!2!@capture_tutorial.schematic1(sch_1):ins700@discrete.\cap np.normal\(chips)!CAP NP_0402-CAP_0.1UF!!!F11!!!!!!
+S!3.3V!C7!1!@capture_tutorial.schematic1(sch_1):ins716@discrete.\cap np.normal\(chips)!CAP NP_0402-CAP_0.1UF!!!F10!!!!!!
+S!GND!C7!2!@capture_tutorial.schematic1(sch_1):ins716@discrete.\cap np.normal\(chips)!CAP NP_0402-CAP_0.1UF!!!F10!!!!!!
+S!3.3V!C8!1!@capture_tutorial.schematic1(sch_1):ins732@discrete.\cap np.normal\(chips)!CAP NP_0402-CAP_0.1UF!!!F9!!!!!!
+S!GND!C8!2!@capture_tutorial.schematic1(sch_1):ins732@discrete.\cap np.normal\(chips)!CAP NP_0402-CAP_0.1UF!!!F9!!!!!!
+S!3.3V!C2!1!@capture_tutorial.schematic1(sch_1):ins620@discrete.\cap np.normal\(chips)!CAP NP_1210_100UF!!!F14!!!!!!
+S!GND!C2!2!@capture_tutorial.schematic1(sch_1):ins620@discrete.\cap np.normal\(chips)!CAP NP_1210_100UF!!!F14!!!!!!
+S!VBUS!C1!1!@capture_tutorial.schematic1(sch_1):ins636@discrete.\cap np.normal\(chips)!CAP NP_0402-CAP_10UF!!!F17!!!!!!
+S!GND!C1!2!@capture_tutorial.schematic1(sch_1):ins636@discrete.\cap np.normal\(chips)!CAP NP_0402-CAP_10UF!!!F17!!!!!!
+S!N02189!C3!1!@capture_tutorial.schematic1(sch_1):ins652@discrete.\cap np.normal\(chips)!CAP NP_0402-CAP_10UF!!!F16!!!!!!
+S!GND!C3!2!@capture_tutorial.schematic1(sch_1):ins652@discrete.\cap np.normal\(chips)!CAP NP_0402-CAP_10UF!!!F16!!!!!!
+S!N02114!C9!1!@capture_tutorial.schematic1(sch_1):ins748@discrete.\cap np.normal\(chips)!CAP NP_0402-CAP_10UF!!!F15!!!!!!
+S!GND!C9!2!@capture_tutorial.schematic1(sch_1):ins748@discrete.\cap np.normal\(chips)!CAP NP_0402-CAP_10UF!!!F15!!!!!!
+S!3.3V!IC1!19!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!GND!IC1!20!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!D+!IC1!37!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!D-!IC1!36!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!!IC1!57!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!!IC1!16!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!!IC1!23!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!!IC1!24!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!!IC1!27!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!!IC1!28!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!RTS!IC1!29!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!!IC1!30!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!!IC1!15!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!!IC1!14!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!!IC1!13!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!!IC1!12!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!!IC1!11!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!PROG0!IC1!17!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!PROG1!IC1!18!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!CTS!IC1!21!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!!IC1!22!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!N02098!IC1!39!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!!IC1!47!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!!IC1!48!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!N02102!IC1!40!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!!IC1!46!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!!IC1!44!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!!IC1!45!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!!IC1!49!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!!IC1!50!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!!IC1!51!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!!IC1!52!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!!IC1!53!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!!IC1!54!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!!IC1!55!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!!IC1!42!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!!IC1!43!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!!IC1!60!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!!IC1!61!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!!IC1!62!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!!IC1!63!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!!IC1!64!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!!IC1!1!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!!IC1!2!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!!IC1!3!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!!IC1!58!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!SHDN!IC1!59!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!!IC1!33!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!URX!IC1!31!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!UTX!IC1!32!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!!IC1!4!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!!IC1!5!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!!IC1!6!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!!IC1!8!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!VBUS!IC1!34!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!N02114!IC1!56!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!3.3V!IC1!10!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!3.3V!IC1!26!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!3.3V!IC1!38!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!GND!IC1!25!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!GND!IC1!41!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!GND!IC1!9!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!3.3V!IC1!35!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!RESET!IC1!7!@capture_tutorial.schematic1(sch_1):ins202@\capture tutorial2\.\pic32mx440f512h.normal\(chips)!PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H!!!F8!!!!!!
+S!!JP1!12!@capture_tutorial.schematic1(sch_1):ins489@\capture tutorial2\.\xtend-digi-modem.normal\(chips)!XTEND-DIGI-MODEM_XTEND-DIGI-MODEM_XTEND-DIGI-MODEM!!!F7!!!!!!
+S!!JP1!13!@capture_tutorial.schematic1(sch_1):ins489@\capture tutorial2\.\xtend-digi-modem.normal\(chips)!XTEND-DIGI-MODEM_XTEND-DIGI-MODEM_XTEND-DIGI-MODEM!!!F7!!!!!!
+S!!JP1!14!@capture_tutorial.schematic1(sch_1):ins489@\capture tutorial2\.\xtend-digi-modem.normal\(chips)!XTEND-DIGI-MODEM_XTEND-DIGI-MODEM_XTEND-DIGI-MODEM!!!F7!!!!!!
+S!!JP1!15!@capture_tutorial.schematic1(sch_1):ins489@\capture tutorial2\.\xtend-digi-modem.normal\(chips)!XTEND-DIGI-MODEM_XTEND-DIGI-MODEM_XTEND-DIGI-MODEM!!!F7!!!!!!
+S!!JP1!16!@capture_tutorial.schematic1(sch_1):ins489@\capture tutorial2\.\xtend-digi-modem.normal\(chips)!XTEND-DIGI-MODEM_XTEND-DIGI-MODEM_XTEND-DIGI-MODEM!!!F7!!!!!!
+S!!JP1!17!@capture_tutorial.schematic1(sch_1):ins489@\capture tutorial2\.\xtend-digi-modem.normal\(chips)!XTEND-DIGI-MODEM_XTEND-DIGI-MODEM_XTEND-DIGI-MODEM!!!F7!!!!!!
+S!!JP1!18!@capture_tutorial.schematic1(sch_1):ins489@\capture tutorial2\.\xtend-digi-modem.normal\(chips)!XTEND-DIGI-MODEM_XTEND-DIGI-MODEM_XTEND-DIGI-MODEM!!!F7!!!!!!
+S!!JP1!19!@capture_tutorial.schematic1(sch_1):ins489@\capture tutorial2\.\xtend-digi-modem.normal\(chips)!XTEND-DIGI-MODEM_XTEND-DIGI-MODEM_XTEND-DIGI-MODEM!!!F7!!!!!!
+S!!JP1!20!@capture_tutorial.schematic1(sch_1):ins489@\capture tutorial2\.\xtend-digi-modem.normal\(chips)!XTEND-DIGI-MODEM_XTEND-DIGI-MODEM_XTEND-DIGI-MODEM!!!F7!!!!!!
+S!N02189!JP1!11!@capture_tutorial.schematic1(sch_1):ins489@\capture tutorial2\.\xtend-digi-modem.normal\(chips)!XTEND-DIGI-MODEM_XTEND-DIGI-MODEM_XTEND-DIGI-MODEM!!!F7!!!!!!
+S!CTS!JP1!9!@capture_tutorial.schematic1(sch_1):ins489@\capture tutorial2\.\xtend-digi-modem.normal\(chips)!XTEND-DIGI-MODEM_XTEND-DIGI-MODEM_XTEND-DIGI-MODEM!!!F7!!!!!!
+S!UTX!JP1!5!@capture_tutorial.schematic1(sch_1):ins489@\capture tutorial2\.\xtend-digi-modem.normal\(chips)!XTEND-DIGI-MODEM_XTEND-DIGI-MODEM_XTEND-DIGI-MODEM!!!F7!!!!!!
+S!URX!JP1!6!@capture_tutorial.schematic1(sch_1):ins489@\capture tutorial2\.\xtend-digi-modem.normal\(chips)!XTEND-DIGI-MODEM_XTEND-DIGI-MODEM_XTEND-DIGI-MODEM!!!F7!!!!!!
+S!GND!JP1!1!@capture_tutorial.schematic1(sch_1):ins489@\capture tutorial2\.\xtend-digi-modem.normal\(chips)!XTEND-DIGI-MODEM_XTEND-DIGI-MODEM_XTEND-DIGI-MODEM!!!F7!!!!!!
+S!!JP1!3!@capture_tutorial.schematic1(sch_1):ins489@\capture tutorial2\.\xtend-digi-modem.normal\(chips)!XTEND-DIGI-MODEM_XTEND-DIGI-MODEM_XTEND-DIGI-MODEM!!!F7!!!!!!
+S!RTS!JP1!10!@capture_tutorial.schematic1(sch_1):ins489@\capture tutorial2\.\xtend-digi-modem.normal\(chips)!XTEND-DIGI-MODEM_XTEND-DIGI-MODEM_XTEND-DIGI-MODEM!!!F7!!!!!!
+S!SHDN!JP1!7!@capture_tutorial.schematic1(sch_1):ins489@\capture tutorial2\.\xtend-digi-modem.normal\(chips)!XTEND-DIGI-MODEM_XTEND-DIGI-MODEM_XTEND-DIGI-MODEM!!!F7!!!!!!
+S!!JP1!8!@capture_tutorial.schematic1(sch_1):ins489@\capture tutorial2\.\xtend-digi-modem.normal\(chips)!XTEND-DIGI-MODEM_XTEND-DIGI-MODEM_XTEND-DIGI-MODEM!!!F7!!!!!!
+S!!JP1!4!@capture_tutorial.schematic1(sch_1):ins489@\capture tutorial2\.\xtend-digi-modem.normal\(chips)!XTEND-DIGI-MODEM_XTEND-DIGI-MODEM_XTEND-DIGI-MODEM!!!F7!!!!!!
+S!VBUS!JP1!2!@capture_tutorial.schematic1(sch_1):ins489@\capture tutorial2\.\xtend-digi-modem.normal\(chips)!XTEND-DIGI-MODEM_XTEND-DIGI-MODEM_XTEND-DIGI-MODEM!!!F7!!!!!!
+S!RESET!JP2!1!@capture_tutorial.schematic1(sch_1):ins554@\capture tutorial2\.\m06_lock.normal\(chips)!M06_LOCK_1X06_LOCK_PIC 32 PROG!!!F6!!!!!!
+S!3.3V!JP2!2!@capture_tutorial.schematic1(sch_1):ins554@\capture tutorial2\.\m06_lock.normal\(chips)!M06_LOCK_1X06_LOCK_PIC 32 PROG!!!F6!!!!!!
+S!GND!JP2!3!@capture_tutorial.schematic1(sch_1):ins554@\capture tutorial2\.\m06_lock.normal\(chips)!M06_LOCK_1X06_LOCK_PIC 32 PROG!!!F6!!!!!!
+S!PROG1!JP2!4!@capture_tutorial.schematic1(sch_1):ins554@\capture tutorial2\.\m06_lock.normal\(chips)!M06_LOCK_1X06_LOCK_PIC 32 PROG!!!F6!!!!!!
+S!PROG0!JP2!5!@capture_tutorial.schematic1(sch_1):ins554@\capture tutorial2\.\m06_lock.normal\(chips)!M06_LOCK_1X06_LOCK_PIC 32 PROG!!!F6!!!!!!
+S!!JP2!6!@capture_tutorial.schematic1(sch_1):ins554@\capture tutorial2\.\m06_lock.normal\(chips)!M06_LOCK_1X06_LOCK_PIC 32 PROG!!!F6!!!!!!
+S!N01899!MAIN_PWR!2!@capture_tutorial.schematic1(sch_1):ins814@discrete.\led.normal\(chips)!LED_LED_LNJ_LED!!!F5!!!!!!
+S!GND!MAIN_PWR!1!@capture_tutorial.schematic1(sch_1):ins814@discrete.\led.normal\(chips)!LED_LED_LNJ_LED!!!F5!!!!!!
+S!3.3V!R1!1!@capture_tutorial.schematic1(sch_1):ins773@discrete.\resistor.normal\(chips)!RESISTOR_0402-RES_150!!!F4!!!!!!
+S!N01899!R1!2!@capture_tutorial.schematic1(sch_1):ins773@discrete.\resistor.normal\(chips)!RESISTOR_0402-RES_150!!!F4!!!!!!
+S!N02189!R2!1!@capture_tutorial.schematic1(sch_1):ins789@discrete.\resistor.normal\(chips)!RESISTOR_0402-RES_56K!!!F3!!!!!!
+S!3.3V!R2!2!@capture_tutorial.schematic1(sch_1):ins789@discrete.\resistor.normal\(chips)!RESISTOR_0402-RES_56K!!!F3!!!!!!
+S!D+!X1!D+!@capture_tutorial.schematic1(sch_1):ins369@\capture tutorial2\.\usb-microb.normal\(chips)!USB-MICROB_USB-MICROB_USB-B!!!F1!!!!!!
+S!D-!X1!D-!@capture_tutorial.schematic1(sch_1):ins369@\capture tutorial2\.\usb-microb.normal\(chips)!USB-MICROB_USB-MICROB_USB-B!!!F1!!!!!!
+S!GND!X1!GND!@capture_tutorial.schematic1(sch_1):ins369@\capture tutorial2\.\usb-microb.normal\(chips)!USB-MICROB_USB-MICROB_USB-B!!!F1!!!!!!
+S!!X1!MT1!@capture_tutorial.schematic1(sch_1):ins369@\capture tutorial2\.\usb-microb.normal\(chips)!USB-MICROB_USB-MICROB_USB-B!!!F1!!!!!!
+S!!X1!MT2!@capture_tutorial.schematic1(sch_1):ins369@\capture tutorial2\.\usb-microb.normal\(chips)!USB-MICROB_USB-MICROB_USB-B!!!F1!!!!!!
+S!!X1!MT3!@capture_tutorial.schematic1(sch_1):ins369@\capture tutorial2\.\usb-microb.normal\(chips)!USB-MICROB_USB-MICROB_USB-B!!!F1!!!!!!
+S!!X1!MT4!@capture_tutorial.schematic1(sch_1):ins369@\capture tutorial2\.\usb-microb.normal\(chips)!USB-MICROB_USB-MICROB_USB-B!!!F1!!!!!!
+S!!X1!P_1!@capture_tutorial.schematic1(sch_1):ins369@\capture tutorial2\.\usb-microb.normal\(chips)!USB-MICROB_USB-MICROB_USB-B!!!F1!!!!!!
+S!!X1!P_2!@capture_tutorial.schematic1(sch_1):ins369@\capture tutorial2\.\usb-microb.normal\(chips)!USB-MICROB_USB-MICROB_USB-B!!!F1!!!!!!
+S!!X1!ID!@capture_tutorial.schematic1(sch_1):ins369@\capture tutorial2\.\usb-microb.normal\(chips)!USB-MICROB_USB-MICROB_USB-B!!!F1!!!!!!
+S!VBUS!X1!VBUS!@capture_tutorial.schematic1(sch_1):ins369@\capture tutorial2\.\usb-microb.normal\(chips)!USB-MICROB_USB-MICROB_USB-B!!!F1!!!!!!
+S!N02098!Y1!1!@capture_tutorial.schematic1(sch_1):ins591@\capture tutorial2\.\crystal.normal\(chips)!CRYSTAL_CRYSTAL-SMD_8MHZ!!!F0!!!!!!
+S!N02102!Y1!3!@capture_tutorial.schematic1(sch_1):ins591@\capture tutorial2\.\crystal.normal\(chips)!CRYSTAL_CRYSTAL-SMD_8MHZ!!!F0!!!!!!
+S!GND!Y1!2!@capture_tutorial.schematic1(sch_1):ins591@\capture tutorial2\.\crystal.normal\(chips)!CRYSTAL_CRYSTAL-SMD_8MHZ!!!F0!!!!!!
+S!GND!Y1!4!@capture_tutorial.schematic1(sch_1):ins591@\capture tutorial2\.\crystal.normal\(chips)!CRYSTAL_CRYSTAL-SMD_8MHZ!!!F0!!!!!!
