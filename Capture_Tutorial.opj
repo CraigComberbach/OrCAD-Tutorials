@@ -1,6 +1,6 @@
 (ExpressProject "Capture_Tutorial"
   (ProjectVersion "19981106")
-  (SoftwareVersion "22.1 P001 (4063652)  [10/6/2022]-[02/08/24]")
+  (SoftwareVersion "22.1 P001 (4063652)  [10/6/2022]-[02/09/24]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -231,7 +231,7 @@
       (Path "Outputs")
       (Path "PSpice Resources")
       (Path "Logs")
-      (Select "PSpice Resources"))
+      (Select "Design Resources" ".\capture_tutorial.dsn" "SCHEMATIC1" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -242,8 +242,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 5 834 24 1075")
-        (Scroll "60 -149")
-        (Zoom "100")
+        (Scroll "4 -142")
+        (Zoom "102")
         (Occurrence "/"))
       (Path
          "C:\USERS\CRAIGCOMBERBACH\ONEDRIVE - SMARTREND MANUFACTURING GROUP\DESKTOP\ORCAD-TUTORIALS\CAPTURE_TUTORIAL.DSN")
