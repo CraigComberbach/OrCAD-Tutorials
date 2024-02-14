@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : pcb_tutorial.brd                              )
 (    Software Version : 22.1P001                                      )
-(    Date/Time        : Tue Feb 13 08:49:07 2024                      )
+(    Date/Time        : Tue Feb 13 09:13:32 2024                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -20,7 +20,7 @@
  ========= check standalone text              0:00:00
  ========= check standalone rectangles        0:00:00
 
- ..... Total number of DRC errors  3
+ ..... Total number of DRC errors  0
 
  ..... DRC update completed, total CPU time   0:00:00
  *************************************************************************

@@ -233,7 +233,7 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 522 0 174"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 522 0 148"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
