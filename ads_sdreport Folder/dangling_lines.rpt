@@ -1,0 +1,50 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Dangling Line, Via and Antenna Report                            )
+(                                                                     )
+(    Drawing          : pcb_tutorial.brd                              )
+(    Software Version : 22.1P001                                      )
+(    Date/Time        : Wed Feb 21 08:14:04 2024                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Report methodology:
+  - Dangling lines have at least one end not connected.
+  - Dangling vias have one or no connection
+      - Plus are not a test, thieving or netshort property via.
+  - Antenna vias do not have connections on their start and end layers.
+      - Plus they are not a thieving vias.
+      - Optionally, VOLTAGE nets, testvias and through vias can be suppressed with
+        the environment variable report_antennavia.
+      - Section may be suppressed by variable report_noantennavia.
+  - Not part of the current partition.
+  - To suppress items in dangle report add the OK_DANGLE property to the via
+    or connect line.
+
+
+
+<< Antenna Vias >>
+  Net                  Padstack               Location            Layers
+  ---------------------------------------------------------------------------
+  3.3V                 VIA                  (21.750 20.630)  TOP/BOTTOM 
+  3.3V                 VIA                  (23.750 29.370)  TOP/BOTTOM 
+  3.3V                 VIA                  (22.250 31.830)  TOP/BOTTOM 
+  3.3V                 VIA                  (25.370 25.750)  TOP/BOTTOM 
+  3.3V                 VIA                  (27.830 22.250)  TOP/BOTTOM 
+  3.3V                 VIA                  (20.000 2.570)   TOP/BOTTOM 
+  3.3V                 VIA                  (10.000 39.570)  TOP/BOTTOM 
+  3.3V                 VIA                  (7.000 39.570)   TOP/BOTTOM 
+  3.3V                 VIA                  (2.320 36.980)   TOP/BOTTOM 
+  3.3V                 VIA                  (2.670 36.330)   TOP/BOTTOM 
+  3.3V                 VIA                  (2.320 35.670)   TOP/BOTTOM 
+  3.3V                 VIA                  (4.370 30.000)   TOP/BOTTOM 
+  3.3V                 VIA                  (3.570 17.000)   TOP/BOTTOM 
+  3.3V                 VIA                  (3.570 20.000)   TOP/BOTTOM 
+  3.3V                 VIA                  (33.570 22.000)  TOP/BOTTOM 
+  3.3V                 VIA                  (33.000 25.570)  TOP/BOTTOM 
+
+<< Summary >>
+  Total dangling lines:       0
+  Total dangling vias:        0
+  Total antenna vias:        16

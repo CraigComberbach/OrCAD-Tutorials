@@ -219,28 +219,26 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "c:\users\craigcomberbach\onedrive - smartrend manufacturing group\desktop\orcad-tutorials\capture_tutorial.dsn")
-      (Path "Design Resources"
-         "c:\users\craigcomberbach\onedrive - smartrend manufacturing group\desktop\orcad-tutorials\capture_tutorial.dsn"
-         "SCHEMATIC1")
+      (Path "Design Resources" ".\capture_tutorial.dsn")
+      (Path "Design Resources" ".\capture_tutorial.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
       (Path "Layout")
       (Path "Outputs")
       (Path "PSpice Resources")
-      (Path "Logs"))
+      (Path "Logs")
+      (Select "Design Resources" ".\capture_tutorial.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 522 0 148"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 522 0 259"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 5 1040 24 1075")
-        (Scroll "-7 -142")
-        (Zoom "102")
+        (Scroll "270 -12")
+        (Zoom "138")
         (Occurrence "/"))
       (Path
          "C:\USERS\CRAIGCOMBERBACH\ONEDRIVE - SMARTREND MANUFACTURING GROUP\DESKTOP\ORCAD-TUTORIALS\CAPTURE_TUTORIAL.DSN")
