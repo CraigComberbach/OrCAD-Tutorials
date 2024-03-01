@@ -1,3 +1,9 @@
+axlFilmCreate( "POWERPLANE_1" ?negative nil ?undefineLineWidth 0.000 ?sequence 17 
+	?rotation 0 ?xOffset 0.000 ?yOffset 0.000 ?shapeBoundingBox 2.540 ?mirrored nil ?fullContact nil 
+	?suppressUnconnectPads nil ?drawMissingPadApertures nil ?useApertureRotation nil 
+	?suppressShapeFill nil ?vectorBasedPad t ?drawHolesOnly nil 
+	?domains '(ipc2581 pdf artwork visibility ) ?ipc2581 '() 
+	?layers '("ETCH/POWERPLANE_1" "PIN/POWERPLANE_1" "VIA CLASS/POWERPLANE_1" ))
 axlFilmCreate( "GM2" ?negative nil ?undefineLineWidth 0.100 ?sequence 9 
 	?rotation 0 ?xOffset 0.000 ?yOffset 0.000 ?shapeBoundingBox 2.540 ?mirrored nil ?fullContact nil 
 	?suppressUnconnectPads nil ?drawMissingPadApertures nil ?useApertureRotation nil 
