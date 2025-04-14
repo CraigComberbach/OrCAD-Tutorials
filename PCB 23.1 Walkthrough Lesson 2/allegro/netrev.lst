@@ -1,0 +1,90 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : pcb_tutorial.brd                              )
+(    Software Version : 22.1S001                                      )
+(    Date/Time        : Wed Apr 12 07:39:26 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  No
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               Always
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         'c:\users\aidanf\documents\pcb walkthrough 22.1\pcb files\allegro'
+Design Directory:            'c:/users/aidanf/documents/pcb walkthrough 22.1/pcb files/allegro'
+Old design name:             'c:/users/aidanf/documents/pcb walkthrough 22.1/pcb files/allegro/pcb_tutorial.brd'
+New design name:             'c:/users/aidanf/documents/pcb walkthrough 22.1/pcb files/allegro/pcb_tutorial.brd'
+
+CmdLine: netrev -y 1 -i c:\users\aidanf\documents\pcb walkthrough 22.1\pcb files\allegro -q netrev_constraint_report.xml c:/users/aidanf/documents/pcb walkthrough 22.1/pcb files/allegro/#Taaaaag17764.tmp
+
+------ Preparing to read pst files ------
+
+Starting to read c:/users/aidanf/documents/pcb walkthrough 22.1/pcb files/allegro/pstchip.dat 
+   Finished reading c:/users/aidanf/documents/pcb walkthrough 22.1/pcb files/allegro/pstchip.dat (00:00:00.01)
+Starting to read c:/users/aidanf/documents/pcb walkthrough 22.1/pcb files/allegro/pstxprt.dat 
+   Finished reading c:/users/aidanf/documents/pcb walkthrough 22.1/pcb files/allegro/pstxprt.dat (00:00:00.00)
+Starting to read c:/users/aidanf/documents/pcb walkthrough 22.1/pcb files/allegro/pstxnet.dat 
+   Finished reading c:/users/aidanf/documents/pcb walkthrough 22.1/pcb files/allegro/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+------ Library Paths ------
+MODULEPATH =  . 
+           C:/Cadence/SPB_22.1/share/local/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_22.1/share/local/pcb/symbols 
+           C:/Cadence/SPB_22.1/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_22.1/share/pcb/allegrolib/symbols 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_22.1/share/local/pcb/padstacks 
+           C:/Cadence/SPB_22.1/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_22.1/share/pcb/allegrolib/symbols 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Apr 12 7:39:26 2023
+   DESIGN NAME : 'CAPTURE_TUTORIAL'
+   PACKAGING ON Dec  9 2022 06:11:31
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:00:18
+elapsed time  0:00:00
+

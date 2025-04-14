@@ -1,0 +1,284 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  c:.../documents/pcb walkthrough 22.1/pcb files/allegro/pcb_tutorial.brd     |
+|                                                    Mon May  1 10:50:21 2023  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ CAP NP_0402-CAP_DISCRETE_0.1UF
+ CAP NP_0402-CAP_DISCRETE_10UF
+ CAP NP_1210_DISCRETE_100UF
+ CRYSTAL_CRYSTAL-SMD_8MHZ
+ LED_LED_LNJ_LED
+ LT1965EMS8E-1P5_1_MSOP_8_ADI_LT1965EMS8E-1P5
+ PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H
+ RESISTOR_0402-RES_DISCRETE_56K
+ RESISTOR_0402-RES_DISCRETE_150
+ USB-MICROB_USB-MICROB_USB-B
+ XTEND-DIGI-MODEM_XTEND-DIGI-MODEM_XTEND-DIGI-MODEM
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  c:.../documents/pcb walkthrough 22.1/pcb files/allegro/pcb_tutorial.brd     |
+|                                                    Mon May  1 10:50:21 2023  |
+|------------------------------------------------------------------------------|
+| COMPONENTS CHANGED from one device type to another in design                 |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1                  CAP NP_0402-CAP_DISCRETE_10UF 129.000 271.000 CAP NP_0402-CAP_10UF
+ C2                  CAP NP_1210_DISCRETE_100UF 124.000 265.000 CAP NP_1210_100UF
+ C3                  CAP NP_0402-CAP_DISCRETE_10UF 152.000 254.000 CAP NP_0402-CAP_10UF
+ C4                  CAP NP_0402-CAP_DISCRETE_0.1UF 122.000 255.000 CAP NP_0402-CAP_0.1UF
+ C5                  CAP NP_0402-CAP_DISCRETE_0.1UF 122.000 252.000 CAP NP_0402-CAP_0.1UF
+ C6                  CAP NP_0402-CAP_DISCRETE_0.1UF 127.000 276.000 CAP NP_0402-CAP_0.1UF
+ C7                  CAP NP_0402-CAP_DISCRETE_0.1UF 150.000 262.000 CAP NP_0402-CAP_0.1UF
+ C8                  CAP NP_0402-CAP_DISCRETE_0.1UF 124.000 276.000 CAP NP_0402-CAP_0.1UF
+ C9                  CAP NP_0402-CAP_DISCRETE_10UF 128.000 261.000 CAP NP_0402-CAP_10UF
+ IC1                 PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H 138.000 260.000 PIC32MX440F512H_SQFP-S-10X10-64_PIC32MX440F512H
+ JP1                 XTEND-DIGI-MODEM_XTEND-DIGI-MODEM_XTEND-DIGI-MODEM 186.000 260.000 XTEND-DIGI-MODEM_XTEND-DIGI-MODEM_XTEND-DIGI-MODEM
+ MAIN_PWR            LED_LED_LNJ_LED       141.000 239.000 LED_LED_LNJ_LED
+ R1                  RESISTOR_0402-RES_DISCRETE_150 137.000 239.000 RESISTOR_0402-RES_150
+ R2                  RESISTOR_0402-RES_DISCRETE_56K 152.000 257.000 RESISTOR_0402-RES_56K
+ U1                  LT1965EMS8E-1P5_1_MSOP_8_ADI_LT1965EMS8E-1P5 123.000 271.000 LT1965EMS8E-1P5_1_MSOP_8_ADI_LT1965EMS8E-1P5
+ X1                  USB-MICROB_USB-MICROB_USB-B 144.000 280.000 USB-MICROB_USB-MICROB_USB-B
+ Y1                  CRYSTAL_CRYSTAL-SMD_8MHZ 139.000 271.000 CRYSTAL_CRYSTAL-SMD_8MHZ
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  c:.../documents/pcb walkthrough 22.1/pcb files/allegro/pcb_tutorial.brd     |
+|                                                    Mon May  1 10:50:21 2023  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1.2           129.000 271.000 PRIM_FILE      .\pstchip.dat
+ C1.2           129.000 271.000 XY             (440,100)
+ C2.2           124.000 265.000 PRIM_FILE      .\pstchip.dat
+ C2.2           124.000 265.000 XY             (720,100)
+ C3.2           152.000 254.000 PRIM_FILE      .\pstchip.dat
+ C3.2           152.000 254.000 XY             (70,190)
+ C4.2           122.000 255.000 PRIM_FILE      .\pstchip.dat
+ C4.2           122.000 255.000 XY             (640,230)
+ C5.2           122.000 252.000 PRIM_FILE      .\pstchip.dat
+ C5.2           122.000 252.000 XY             (700,230)
+ C6.2           127.000 276.000 PRIM_FILE      .\pstchip.dat
+ C6.2           127.000 276.000 XY             (760,230)
+ C7.2           150.000 262.000 PRIM_FILE      .\pstchip.dat
+ C7.2           150.000 262.000 XY             (820,230)
+ C8.2           124.000 276.000 PRIM_FILE      .\pstchip.dat
+ C8.2           124.000 276.000 XY             (880,230)
+ C9.2           128.000 261.000 PRIM_FILE      .\pstchip.dat
+ C9.2           128.000 261.000 XY             (80,310)
+ IC1.7          138.000 260.000 PRIM_FILE      .\pstchip.dat
+ IC1.7          138.000 260.000 XY             (220,220)
+ JP1.2          186.000 260.000 PRIM_FILE      .\pstchip.dat
+ JP1.2          186.000 260.000 XY             (220,50)
+ MAIN_PWR.1     141.000 239.000 PRIM_FILE      .\pstchip.dat
+ MAIN_PWR.1     141.000 239.000 XY             (850,50)
+ R1.2           137.000 239.000 PRIM_FILE      .\pstchip.dat
+ R1.2           137.000 239.000 XY             (770,50)
+ R2.2           152.000 257.000 PRIM_FILE      .\pstchip.dat
+ R2.2           152.000 257.000 XY             (70,80)
+ U1.3           123.000 271.000 PRIM_FILE      .\pstchip.dat
+ U1.3           123.000 271.000 XY             (520,40)
+ X1.VBUS        144.000 280.000 PRIM_FILE      .\pstchip.dat
+ X1.VBUS        144.000 280.000 XY             (60,600)
+ Y1.4           139.000 271.000 PRIM_FILE      .\pstchip.dat
+ Y1.4           139.000 271.000 XY             (40,380)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  c:.../documents/pcb walkthrough 22.1/pcb files/allegro/pcb_tutorial.brd     |
+|                                                    Mon May  1 10:50:21 2023  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1.1           129.000 271.650 CDS_PINID      \1\
+ C1.2           129.000 270.350 CDS_PINID      \2\
+ C2.1           122.400 265.000 CDS_PINID      \1\
+ C2.2           125.600 265.000 CDS_PINID      \2\
+ C3.1           152.650 254.000 CDS_PINID      \1\
+ C3.2           151.350 254.000 CDS_PINID      \2\
+ C4.1           121.350 255.000 CDS_PINID      \1\
+ C4.2           122.650 255.000 CDS_PINID      \2\
+ C5.1           121.350 252.000 CDS_PINID      \1\
+ C5.2           122.650 252.000 CDS_PINID      \2\
+ C6.1           127.000 275.350 CDS_PINID      \1\
+ C6.2           127.000 276.650 CDS_PINID      \2\
+ C7.1           150.000 261.350 CDS_PINID      \1\
+ C7.2           150.000 262.650 CDS_PINID      \2\
+ C8.1           124.000 275.350 CDS_PINID      \1\
+ C8.2           124.000 276.650 CDS_PINID      \2\
+ C9.1           128.650 261.000 CDS_PINID      \1\
+ C9.2           127.350 261.000 CDS_PINID      \2\
+ IC1.1          134.250 254.400 CDS_PINID      \RE5_PMD5\
+ IC1.2          134.750 254.400 CDS_PINID      \RE6_PMD6\
+ IC1.3          135.250 254.400 CDS_PINID      \RE7_PMD7\
+ IC1.4          135.750 254.400 CDS_PINID      \RG6_PMA5_SCK2_CN8\
+ IC1.5          136.250 254.400 CDS_PINID      \RG7_PMA4_SDI2_CN9\
+ IC1.6          136.750 254.400 CDS_PINID      \RG8_PMA3_SDO2_CN10\
+ IC1.7          137.250 254.400 CDS_PINID      \_MCLR\
+ IC1.8          137.750 254.400 CDS_PINID      \RG9_PMA2__SS2_CN11\
+ IC1.9          138.250 254.400 CDS_PINID      \VSS_9\
+ IC1.10         138.750 254.400 CDS_PINID      \VDD_10\
+ IC1.11         139.250 254.400 CDS_PINID      \RB5_AN5_VBUSON_C1IN+_CN7\
+ IC1.12         139.750 254.400 CDS_PINID      \RB4_AN4_C1IN-_CN6\
+ IC1.13         140.250 254.400 CDS_PINID      \RB3_AN3_C2IN+_CN5\
+ IC1.14         140.750 254.400 CDS_PINID      \RB2_AN2_C2IN-_CN4\
+ IC1.15         141.250 254.400 CDS_PINID      \RB1_AN1_PGEC1_VREF-_CVREF-_CN3\
+ IC1.16         141.750 254.400 CDS_PINID      \RB0_AN0_PGED1_EMUD1_PMA6_VREF+_CVREF+_CN2\
+ IC1.17         143.600 256.250 CDS_PINID      \RB6_AN6_PGEC2_OCFA\
+ IC1.18         143.600 256.750 CDS_PINID      \RB7_AN7_PGED2\
+ IC1.19         143.600 257.250 CDS_PINID      \AVDD\
+ IC1.20         143.600 257.750 CDS_PINID      \AVSS\
+ IC1.21         143.600 258.250 CDS_PINID      \RB8_AN8__U2CTS_C1OUT\
+ IC1.22         143.600 258.750 CDS_PINID      \RB9_AN9_PMA7_C2OUT\
+ IC1.23         143.600 259.250 CDS_PINID      \RB10_AN10_TMS_CVREFOUT_PMA13\
+ IC1.24         143.600 259.750 CDS_PINID      \RB11_AN11_TDO_PMA12\
+ IC1.25         143.600 260.250 CDS_PINID      \VSS_25\
+ IC1.26         143.600 260.750 CDS_PINID      \VDD_26\
+ IC1.27         143.600 261.250 CDS_PINID      \RB12_AN12_TCK_PMA11\
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  c:.../documents/pcb walkthrough 22.1/pcb files/allegro/pcb_tutorial.brd     |
+|                                                    Mon May  1 10:50:21 2023  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ IC1.28         143.600 261.750 CDS_PINID      \RB13_AN13_TDI_PMA10\
+ IC1.29         143.600 262.250 CDS_PINID      \RB14_AN14_PMALH_PMA1__U2RTS_BCLK2\
+ IC1.30         143.600 262.750 CDS_PINID      \RB15_AN15_PMALL_PMA0_OCFB_CN12\
+ IC1.31         143.600 263.250 CDS_PINID      \RF4_PMA9_U2RX_SDA2_CN17\
+ IC1.32         143.600 263.750 CDS_PINID      \RF5_PMA8_U2TX_SCL2_CN18\
+ IC1.33         141.750 265.600 CDS_PINID      \RF3_USBID\
+ IC1.34         141.250 265.600 CDS_PINID      \VBUS\
+ IC1.35         140.750 265.600 CDS_PINID      \VUSB\
+ IC1.36         140.250 265.600 CDS_PINID      \D-_RG3\
+ IC1.37         139.750 265.600 CDS_PINID      \D+_RG2\
+ IC1.38         139.250 265.600 CDS_PINID      \VDD_38\
+ IC1.39         138.750 265.600 CDS_PINID      \RC12_OSC1_CLKI\
+ IC1.40         138.250 265.600 CDS_PINID      \RC15_OSC2_CLKO\
+ IC1.41         137.750 265.600 CDS_PINID      \VSS_41\
+ IC1.42         137.250 265.600 CDS_PINID      \RD8_IC1_RTCC_INT1\
+ IC1.43         136.750 265.600 CDS_PINID      \RD9_IC2__U1CTS__INT2_SDA1\
+ IC1.44         136.250 265.600 CDS_PINID      \RD10_IC3_PMCS2_PMA15_INT3_SCL1\
+ IC1.45         135.750 265.600 CDS_PINID      \RD11_IC4_PMCS1_PMA14_INT4\
+ IC1.46         135.250 265.600 CDS_PINID      \RD0_OC1_INT0\
+ IC1.47         134.750 265.600 CDS_PINID      \RC13_SOSCI_CN1\
+ IC1.48         134.250 265.600 CDS_PINID      \RC14_SOSCO_T1CK_CN0\
+ IC1.49         132.400 263.750 CDS_PINID      \RD1_OC2__U1RTS_BCLK1\
+ IC1.50         132.400 263.250 CDS_PINID      \RD2_OC3_U1RX\
+ IC1.51         132.400 262.750 CDS_PINID      \RD3_OC4_U1TX\
+ IC1.52         132.400 262.250 CDS_PINID      \RD4_PMWR_OC5_IC5_CN13\
+ IC1.53         132.400 261.750 CDS_PINID      \RD5_PMRD_CN14\
+ IC1.54         132.400 261.250 CDS_PINID      \RD6_CN15\
+ IC1.55         132.400 260.750 CDS_PINID      \RD7_CN16\
+ IC1.56         132.400 260.250 CDS_PINID      \VCAP_VDDCORE\
+ IC1.57         132.400 259.750 CDS_PINID      \ENVREG\
+ IC1.58         132.400 259.250 CDS_PINID      \RF0\
+ IC1.59         132.400 258.750 CDS_PINID      \RF1\
+ IC1.60         132.400 258.250 CDS_PINID      \RE0_PMD0\
+ IC1.61         132.400 257.750 CDS_PINID      \RE1_PMD1\
+ IC1.62         132.400 257.250 CDS_PINID      \RE2_PMD2\
+ IC1.63         132.400 256.750 CDS_PINID      \RE3_PMD3\
+ IC1.64         132.400 256.250 CDS_PINID      \RE4_PMD4\
+ JP1.1          158.500 269.000 CDS_PINID      \GND\
+ JP1.2          160.500 269.000 CDS_PINID      \VCC\
+ JP1.3          158.500 267.000 CDS_PINID      \GPO2\
+ JP1.4          160.500 267.000 CDS_PINID      \TX_PWR\
+ JP1.5          158.500 265.000 CDS_PINID      \DI\
+ JP1.6          160.500 265.000 CDS_PINID      \DO\
+ JP1.7          158.500 263.000 CDS_PINID      \SHDN\
+ JP1.8          160.500 263.000 CDS_PINID      \SLEEP\
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  c:.../documents/pcb walkthrough 22.1/pcb files/allegro/pcb_tutorial.brd     |
+|                                                    Mon May  1 10:50:21 2023  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ JP1.9          158.500 261.000 CDS_PINID      \CTS\
+ JP1.10         160.500 261.000 CDS_PINID      \RTS\
+ JP1.11         158.500 259.000 CDS_PINID      \CONFIG\
+ JP1.12         160.500 259.000 CDS_PINID      \12\
+ JP1.13         158.500 257.000 CDS_PINID      \13\
+ JP1.14         160.500 257.000 CDS_PINID      \14\
+ JP1.15         158.500 255.000 CDS_PINID      \15\
+ JP1.16         160.500 255.000 CDS_PINID      \16\
+ JP1.17         158.500 253.000 CDS_PINID      \17\
+ JP1.18         160.500 253.000 CDS_PINID      \18\
+ JP1.19         158.500 251.000 CDS_PINID      \19\
+ JP1.20         160.500 251.000 CDS_PINID      \20\
+ JP2.1          133.000 246.000 CDS_PINID      \1\
+ JP2.2          135.540 245.746 CDS_PINID      \2\
+ JP2.3          138.080 246.000 CDS_PINID      \3\
+ JP2.4          140.620 245.746 CDS_PINID      \4\
+ JP2.5          143.160 246.000 CDS_PINID      \5\
+ JP2.6          145.700 245.746 CDS_PINID      \6\
+ MAIN_PWR.1     141.000 238.347 CDS_PINID      \CATHODE\
+ MAIN_PWR.2     141.000 239.652 CDS_PINID      \ANODE\
+ R1.1           137.000 238.350 CDS_PINID      \1\
+ R1.2           137.000 239.650 CDS_PINID      \2\
+ R2.1           152.650 257.000 CDS_PINID      \1\
+ R2.2           151.350 257.000 CDS_PINID      \2\
+ U1.1           120.764 271.975 CDS_PINID      \OUT\
+ U1.2           120.764 271.325 CDS_PINID      \OUT_1\
+ U1.3           120.764 270.675 CDS_PINID      \SENSE/ADJ*\
+ U1.4           120.764 270.025 CDS_PINID      \GND\
+ U1.5           125.235 270.025 CDS_PINID      \GND_1\
+ U1.6           125.235 270.675 CDS_PINID      \*SHDN\
+ U1.7           125.235 271.325 CDS_PINID      \IN\
+ U1.8           125.235 271.975 CDS_PINID      \IN_1\
+ X1.D+          144.000 277.350 CDS_PINID      \D+\
+ X1.D-          144.650 277.350 CDS_PINID      \D-\
+ X1.GND         142.700 277.350 CDS_PINID      \GND\
+ X1.ID          143.350 277.350 CDS_PINID      \USBID\
+ X1.MT1         147.800 280.000 CDS_PINID      \MT1\
+ X1.MT2         140.200 280.000 CDS_PINID      \MT2\
+ X1.MT3         147.100 277.450 CDS_PINID      \MT3\
+ X1.MT4         140.900 277.450 CDS_PINID      \MT4\
+ X1.P_1         145.200 280.000 CDS_PINID      \P_1\
+ X1.P_2         142.800 280.000 CDS_PINID      \P_2\
+ X1.VBUS        145.300 277.350 CDS_PINID      \VBUS\
+ Y1.1           140.850 272.150 CDS_PINID      \1\
+ Y1.2           137.150 272.150 CDS_PINID      \GND_2\
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   7  |
+|------------------------------------------------------------------------------|
+|  c:.../documents/pcb walkthrough 22.1/pcb files/allegro/pcb_tutorial.brd     |
+|                                                    Mon May  1 10:50:21 2023  |
+|------------------------------------------------------------------------------|
+| PIN PROPERTIES added to design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    pin_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ Y1.3           137.150 269.850 CDS_PINID      \3\
+ Y1.4           140.850 269.850 CDS_PINID      \GND_4\
+|------------------------------------------------------------------------------|
+|       Comp definitions added:      11                                        |
+|       Components changed    :      17                                        |
+|       Pin property added    :     137                                        |
+|       Slot property added   :      34                                        |
+|                                                                              |
+|   Total ECO changes reported:     199                                        |
+|------------------------------------------------------------------------------|

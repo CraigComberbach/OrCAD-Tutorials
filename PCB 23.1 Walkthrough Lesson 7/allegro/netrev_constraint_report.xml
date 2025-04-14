@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/Cadence/SPB_22.1/share/pcb/consmgr/VDD/report/treeview.xsl"?>
+<ConstraintDifferenceReport Path="file:///C:/Cadence/SPB_22.1/share/pcb/consmgr/VDD/report/rc" Type="Constraint Difference Report">
+
+  <RptSummary Col1="Layout" Col2="Schematic">
+    <Entry Name="Report time">Mon May  1 10:50:21 2023
+</Entry>
+    <Entry Name="Software version">22.1 (S001)</Entry>
+    <Entry Name="Layout">c:\users\aidanf\documents\pcb walkthrough 22.1\pcb files\allegro\pcb_tutorial.brd</Entry>
+    <Entry Name="Schematic">c:\users\aidanf\documents\pcb walkthrough 22.1\pcb files\allegro\pstcmdb.dat</Entry>
+    <Entry Name="Baseline File">None</Entry>
+    <Entry Name="Destination design updated">Yes</Entry>
+    <Entry Name="Update Mode">Merge (no deletions will be done)</Entry>
+    <Entry Name="Constraint Information">Electrical, NetClasses, Properties</Entry>
+    <Entry Name="Objects with conflicts">0</Entry>
+  </RptSummary>
+
+  <Tree>
+    <Item Filter="0x5" Name="Summary" Ref="main-summary">
+      <Item Filter="0x0" Name="Designs [1]" Ref="4">
+        <Item Filter="0x0" Name="pcb_tutorial" Ref="1"/>
+      </Item>
+      <Item Filter="0x4" Name="Nets [2]" Ref="5">
+        <Item Filter="0x4" Name="3.3V" Ref="2"/>
+        <Item Filter="0x4" Name="GND" Ref="3"/>
+      </Item>
+    </Item>
+  </Tree>
+
+  <Summaries>
+    <MainSummary ID="main-summary">
+      <ChangedObject Filter="0x0" Name="Designs" ObjNumber="1" Ref="4"/>
+      <ChangedObject Filter="0x4" Name="Nets" ObjNumber="2" Ref="5"/>
+    </MainSummary>
+    <GroupSummary ID="4" Name="Designs">
+      <ChangedObject Attributes="0" Child="0" Filter="0x0" Membership="0" Name="pcb_tutorial" Notes="1" Other="0" Ref="1" Reference="0"/>
+    </GroupSummary>
+    <ObjectSummary ID="1" Kind="Design" Name="pcb_tutorial">
+      <Notes Filter="0x0" Type="Notes">
+        <Note Text="Schematic supports creating XNets for passive devices and for devices having XNET_PINS properties but the Layout will create XNets using DML Models. Updating the Layout to match the behaviour in the Schematic" Type="Warning"/>
+      </Notes>
+    </ObjectSummary>
+    <GroupSummary ID="5" Name="Nets">
+      <ChangedObject Attributes="1" Child="0" Filter="0x4" Membership="0" Name="3.3V" Notes="0" Other="0" Ref="2" Reference="0"/>
+      <ChangedObject Attributes="1" Child="0" Filter="0x4" Membership="0" Name="GND" Notes="0" Other="0" Ref="3" Reference="0"/>
+    </GroupSummary>
+    <ObjectSummary ID="2" Kind="Net" Name="3.3V">
+      <Attributes Filter="0x4" Type="Attributes">
+        <Attribute Filter="0x4" Name="VOLTAGE" Status="" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst>3.3</Dst>
+            <Src>3.3V</Src>
+            <Base>3.3</Base>
+          </Value>
+        </Attribute>
+      </Attributes>
+    </ObjectSummary>
+    <ObjectSummary ID="3" Kind="Net" Name="GND">
+      <Attributes Filter="0x4" Type="Attributes">
+        <Attribute Filter="0x4" Name="VOLTAGE" Status="" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst>0</Dst>
+            <Src>0.0V</Src>
+            <Base>0</Base>
+          </Value>
+        </Attribute>
+      </Attributes>
+    </ObjectSummary>
+  </Summaries>
+
+  <Notes>
+    <Note Ref="1" Text="Schematic supports creating XNets for passive devices and for devices having XNET_PINS properties but the Layout will create XNets using DML Models. Updating the Layout to match the behaviour in the Schematic (Design pcb_tutorial)" Type="Warning"/>
+  </Notes>
+
+  <Layers>
+    <Layer Name="TOP" Type="Conductor"/>
+    <Layer Name="POWERPLANE_1" Type="Plane"/>
+    <Layer Name="BOTTOM" Type="Conductor"/>
+  </Layers>
+
+  <GenericLayers>
+    <Layer Name="Conductor"/>
+    <Layer Name="Plane"/>
+  </GenericLayers>
+
+</ConstraintDifferenceReport>
